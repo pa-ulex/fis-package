@@ -1,0 +1,1766 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>Hospitals</name>
+  <Placemark>
+	<name>Hamelnpyrmont Sana</name>
+      <Point><coordinates>9.3509722222222,52.108333333333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Oeynhausen</name>
+      <Point><coordinates>8.7953572222222,52.192496111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Schaumburg Ev. Klinikum</name>
+      <Point><coordinates>9.1036111111111,52.265556111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Osnabrueck Marienhospital</name>
+      <Point><coordinates>8.0557730555556,52.269987222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rheine LRZ</name>
+      <Point><coordinates>7.4333333333333,52.277222222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ibbenbueren</name>
+      <Point><coordinates>7.7144072222222,52.278041111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Osnabrueck Klinikum</name>
+      <Point><coordinates>8.0047222222222,52.278056111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Luebbecke Kreiskrankenhaus</name>
+      <Point><coordinates>8.60233,52.296095</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Diepenau Polipol</name>
+      <Point><coordinates>8.7119441666667,52.406389166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Thuine Elisabeth Krankenhaus</name>
+      <Point><coordinates>7.4891111111111,52.497306111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Damme Krankenhaus</name>
+      <Point><coordinates>8.193585,52.520969166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Lingen St. Bonifatius</name>
+      <Point><coordinates>7.3149061111111,52.525117222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nienburg Klinikum</name>
+      <Point><coordinates>9.2251941666667,52.635411111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Meppen Ludmillenstift</name>
+      <Point><coordinates>7.2933333333333,52.688611111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bremen Links der Weser</name>
+      <Point><coordinates>8.8169441666667,53.035278055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bremen Mitte</name>
+      <Point><coordinates>8.8379441666667,53.075</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rotenburg West Krankenhaus</name>
+      <Point><coordinates>9.4116672222222,53.105278055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Oldenburg Klinikum</name>
+      <Point><coordinates>8.2198191666667,53.112614166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Oldenburg Ev. Krankenhaus</name>
+      <Point><coordinates>8.2043891666667,53.142833055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bremennord Klinikum</name>
+      <Point><coordinates>8.5938891666667,53.182778055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Jadelinie</name>
+      <Point><coordinates>8.216835,53.217381111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Leer Klinikum</name>
+      <Point><coordinates>7.4575172222222,53.236302222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Westerstede</name>
+      <Point><coordinates>7.9160280555556,53.257667222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Emden Hanssusemihl Krankenhaus</name>
+      <Point><coordinates>7.2141380555556,53.374696111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wesermarschklinik</name>
+      <Point><coordinates>8.4411141666667,53.45504</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sanderbusch Nordwestkrankenhaus</name>
+      <Point><coordinates>8.0086111111111,53.505833055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bremerhaven Klinikum</name>
+      <Point><coordinates>8.6354361111111,53.537656111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wilhelmshaven Klinikum</name>
+      <Point><coordinates>8.0805561111111,53.544444444444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stade Elbe Klinikum</name>
+      <Point><coordinates>9.4443611111111,53.594806111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Papenburg Marienkrankenhaus</name>
+      <Point><coordinates>7.3930561111111,53.074167222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Neustadt RB Klinikum</name>
+      <Point><coordinates>9.4636941666667,52.494389166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wittmund Krankenhaus</name>
+      <Point><coordinates>7.7890830555556,53.571389166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hannover Nordstadt Klinikum</name>
+      <Point><coordinates>9.7155561111111,52.392222222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hannover Klinikum</name>
+      <Point><coordinates>9.7252311111111,52.359253055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kinderkrankenhaus auf der Bult</name>
+      <Point><coordinates>9.7793672222222,52.360583055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hannover Medhochschule</name>
+      <Point><coordinates>9.8065922222222,52.384697222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Soltau Krankenhaus</name>
+      <Point><coordinates>9.8550561111111,52.989556111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Buchholz Nordheide</name>
+      <Point><coordinates>9.8703891666667,53.333639166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Bramstedt</name>
+      <Point><coordinates>9.9032411111111,53.942852222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hamburg Altona</name>
+      <Point><coordinates>9.9127780555556,53.552222222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hamburgeppendorf</name>
+      <Point><coordinates>9.9738891666667,53.591389166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Neumuenster Friedrich Ebert</name>
+      <Point><coordinates>9.99045,54.065061111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hamburg Asklepios Klinik</name>
+      <Point><coordinates>10.016944166667,53.560833055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hamburg Barmbek</name>
+      <Point><coordinates>10.036667222222,53.606944166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hamburg Bundeswehrkrankenhaus</name>
+      <Point><coordinates>10.077808055556,53.596881111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Celle</name>
+      <Point><coordinates>10.084969166667,52.628778055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kiel Uniklinikum</name>
+      <Point><coordinates>10.142778055556,54.33125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hamburgoberg</name>
+      <Point><coordinates>10.173333333333,53.508056111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Barsbuettel</name>
+      <Point><coordinates>10.197778055556,53.577222222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Peine Klinikum</name>
+      <Point><coordinates>10.237916111111,52.302375</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Geesthacht</name>
+      <Point><coordinates>10.385517222222,53.431803055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Lueneburg Staedt Klinikum</name>
+      <Point><coordinates>10.396111111111,53.240556111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Gifhorn Bundespolizei</name>
+      <Point><coordinates>10.510278055556,52.495278055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Uelzen Klinikum</name>
+      <Point><coordinates>10.532778055556,52.973333333333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wolfenbuettel Staedt Krankenhaus</name>
+      <Point><coordinates>10.534444444444,52.179167222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Braunschweid Salzdahlemer Straße</name>
+      <Point><coordinates>10.546389166667,52.238056111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Gifhorn Klinikum</name>
+      <Point><coordinates>10.549444444444,52.496111111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Siblin</name>
+      <Point><coordinates>10.561944166667,54.035083055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>UKSH Boden</name>
+      <Point><coordinates>10.705083055556,53.833222222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>UKSH Dachlandeplatz</name>
+      <Point><coordinates>10.709303055556,53.835247222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wolfsburg Klinikum</name>
+      <Point><coordinates>10.768666666667,52.412196111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Neustadt Holstein</name>
+      <Point><coordinates>10.801389166667,54.1</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Helmstedt Helios Klinik</name>
+      <Point><coordinates>11.000556111111,52.231389166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Winsen Luhe Krankenhaus</name>
+      <Point><coordinates>10.199261111111,53.348603055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hamburgharburg</name>
+      <Point><coordinates>9.9507930555556,53.45976</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hildesheim Helios</name>
+      <Point><coordinates>9.9784391666667,52.150564166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Beverungen Nord</name>
+      <Point><coordinates>9.3813822222222,51.673944166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Fuldatal Ihringhausen</name>
+      <Point><coordinates>9.5027441666667,51.3596</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hann Muenden Klinik</name>
+      <Point><coordinates>9.6583333333333,51.3975</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Harste</name>
+      <Point><coordinates>9.858875,51.602661111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Goettingen Klinikum</name>
+      <Point><coordinates>9.9430561111111,51.551944166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Northeim Albert</name>
+      <Point><coordinates>9.9789461111111,51.730649166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Heiligenstadt Heilbad</name>
+      <Point><coordinates>10.14065,51.37685</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Abbenrode</name>
+      <Point><coordinates>10.625914166667,51.931696111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Gross Kreutz</name>
+      <Point><coordinates>12.784725,52.410508055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nauen Havelland Klink</name>
+      <Point><coordinates>12.874444444444,52.598056111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Demmin</name>
+      <Point><coordinates>13.043263055556,53.902798055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Potsdam Ernst v. Bergmann</name>
+      <Point><coordinates>13.065556111111,52.400278055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stralsund</name>
+      <Point><coordinates>13.081219166667,54.329958055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hiddensee</name>
+      <Point><coordinates>13.106703055556,54.570997222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Charite Benjamin Franklin</name>
+      <Point><coordinates>13.322856111111,52.441342222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mellensee</name>
+      <Point><coordinates>13.379562222222,52.161675</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Berlin Buch</name>
+      <Point><coordinates>13.510301111111,52.630034166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ahrensfelde</name>
+      <Point><coordinates>13.576,52.600239166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kalrsburg</name>
+      <Point><coordinates>13.610696111111,53.970074166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>A01 OSS</name>
+      <Point><coordinates>13.677125,54.817469166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pasewalk</name>
+      <Point><coordinates>13.986196111111,53.48569</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Saarow Helios</name>
+      <Point><coordinates>14.060333333333,52.284333333333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Schwedt an der Oder Raffinerie</name>
+      <Point><coordinates>14.225186111111,53.091822222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Schwedt an der Oder Klinikum</name>
+      <Point><coordinates>14.276086111111,53.053597222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Frankfurt an der Oder Klinikum</name>
+      <Point><coordinates>14.480397222222,52.300831111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Achenbachkrankenhaus</name>
+      <Point><coordinates>13.62788,52.304683055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Greifswald Unimedizin</name>
+      <Point><coordinates>13.40801,54.08885</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Berlin Unfallkrankenhaus</name>
+      <Point><coordinates>13.567753055556,52.51964</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Charite Virchowklinikum</name>
+      <Point><coordinates>13.338383055556,52.542647222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Eberswalde Krankenhaus</name>
+      <Point><coordinates>13.790278055556,52.828333333333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bernau Krankenhaus</name>
+      <Point><coordinates>13.581389166667,52.683889166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Eisenhuettenstadt Staedt Krankenhaus</name>
+      <Point><coordinates>14.623162222222,52.140588055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Luebben Spreewaldklinik</name>
+      <Point><coordinates>13.873862222222,51.943257222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Neubrandenburg Klinikum</name>
+      <Point><coordinates>13.291048055556,53.544883055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Berlin Humboldtkrankenhaus</name>
+      <Point><coordinates>13.308449166667,52.590416111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Neustrelitz LRZ</name>
+      <Point><coordinates>13.052002222222,53.382008055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Neuruppin Ruppiner Kliniken</name>
+      <Point><coordinates>12.796131111111,52.903889166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WK OSS</name>
+      <Point><coordinates>14.074274166667,54.834378055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Arkona</name>
+      <Point><coordinates>14.098206111111,54.786825</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Luckenwalde</name>
+      <Point><coordinates>13.183584166667,52.099179166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Teupitz Asklepios</name>
+      <Point><coordinates>13.632694166667,52.122139166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Prenzlau Kreiskrankenhaus</name>
+      <Point><coordinates>13.866278055556,53.333889166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Angermuende</name>
+      <Point><coordinates>14.001644166667,52.999706111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Torgau Kreiskrankenhaus</name>
+      <Point><coordinates>12.983611111111,51.561278055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cottbus Carlthiemklinikum</name>
+      <Point><coordinates>14.321944166667,51.743333333333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Herzberg Klinikum</name>
+      <Point><coordinates>13.206928055556,51.686054166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sommerland</name>
+      <Point><coordinates>9.5494444444444,53.792444444444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Itzehoe Klinikum</name>
+      <Point><coordinates>9.50325,53.942192222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BKRZ01 Windfarm</name>
+      <Point><coordinates>6.5656672222222,53.964167222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Dolwin Beta</name>
+      <Point><coordinates>6.9234922222222,53.978206111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nordsee One</name>
+      <Point><coordinates>6.8362172222222,53.98225</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Alpha Ventus</name>
+      <Point><coordinates>6.6233172222222,53.999983055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FINO1</name>
+      <Point><coordinates>6.5876672222222,54.014333333333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GOW01Z01</name>
+      <Point><coordinates>7.0087922222222,54.024821111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Merkur</name>
+      <Point><coordinates>6.5609530555556,54.03735</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GOW02Z01</name>
+      <Point><coordinates>7.0383780555556,54.055717222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Helgoland Suedhafen</name>
+      <Point><coordinates>7.8900172222222,54.175111111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Heide Kreiskrankenhaus</name>
+      <Point><coordinates>9.0801861111111,54.200161111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>M00</name>
+      <Point><coordinates>7.6997111111111,54.399311111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Helwin Alpha</name>
+      <Point><coordinates>7.7399641666667,54.452125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Husum Kreiskrankenhaus</name>
+      <Point><coordinates>9.0484530555556,54.483208055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Amrumbank</name>
+      <Point><coordinates>7.7348922222222,54.519911111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Schleswig Helios Klinikum</name>
+      <Point><coordinates>9.5695972222222,54.521978055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Flensburg</name>
+      <Point><coordinates>9.4277780555556,54.787222222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Niebuell</name>
+      <Point><coordinates>8.845,54.793972222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Borkum Inselkrankenhaus</name>
+      <Point><coordinates>6.6701311111111,53.584885</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Gardelegen Krankenhaus</name>
+      <Point><coordinates>11.380333333333,52.523</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Schwerin Klinikum</name>
+      <Point><coordinates>11.406831111111,53.652639166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wismar Staedt Krankenhaus</name>
+      <Point><coordinates>11.439583055556,53.883361111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Magdeburg Klinikum</name>
+      <Point><coordinates>11.5845,52.1585</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Barleben</name>
+      <Point><coordinates>11.606872222222,52.19028</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Magdeburg Uni Boden</name>
+      <Point><coordinates>11.6125,52.104333333333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Magdeburg Uni Dach</name>
+      <Point><coordinates>11.619806111111,52.102133055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stendal Johanniterkrankenhaus</name>
+      <Point><coordinates>11.853833055556,52.611694166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Perleberg Kreiskrankenhaus Prignitz</name>
+      <Point><coordinates>11.874992222222,53.074143055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Doberan</name>
+      <Point><coordinates>11.906292222222,54.090067222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rostock Unimedizin</name>
+      <Point><coordinates>12.10163,54.08513</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hohe Duene</name>
+      <Point><coordinates>12.103944166667,54.179218055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rostock Suedstadt</name>
+      <Point><coordinates>12.107546111111,54.070573055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Guestrow Klinikum</name>
+      <Point><coordinates>12.199444444444,53.811944166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Dummerstorf</name>
+      <Point><coordinates>12.210753055556,54.03835</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Plau am See Fachkrankenhaus</name>
+      <Point><coordinates>12.285569166667,53.478081111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kyritz Klinikum</name>
+      <Point><coordinates>12.388786111111,52.948081111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BB Asklepios</name>
+      <Point><coordinates>12.481528055556,52.425</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Brandenburg Klinikum</name>
+      <Point><coordinates>12.544233055556,52.415173055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Teterow Krankenhaus</name>
+      <Point><coordinates>12.570556111111,53.777778055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Belzig Johanniterkrankenhaus</name>
+      <Point><coordinates>12.598194166667,52.140864166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Altenweddingen</name>
+      <Point><coordinates>11.509772222222,52.009541111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Coswig Mediclin Herzzentrum</name>
+      <Point><coordinates>12.476222222222,51.878306111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Immenstadt EADS GMBH</name>
+      <Point><coordinates>9.3914411111111,47.669672222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kemptendurach</name>
+      <Point><coordinates>10.340142222222,47.691372222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kempten Allgaeu Klinikum</name>
+      <Point><coordinates>10.302556111111,47.731881111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kisslegg</name>
+      <Point><coordinates>9.891925,47.768833055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ravensburg St. Elisabeth</name>
+      <Point><coordinates>9.6210291666667,47.787972222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Klinikum Weissenhorn</name>
+      <Point><coordinates>10.156764166667,48.312122222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ulm Uniklinikum</name>
+      <Point><coordinates>9.9513891666667,48.4225</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BWK Ulm Boden</name>
+      <Point><coordinates>9.9454691666667,48.426519166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Friedrichshafen Klinikum</name>
+      <Point><coordinates>9.42855,47.672767222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ehingen Gesundheitszentrum</name>
+      <Point><coordinates>9.71917,48.27917</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tettnang Kreiskrankenhaus</name>
+      <Point><coordinates>9.5982811111111,47.671667222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Immenstadt Klinikum</name>
+      <Point><coordinates>10.228111111111,47.561569166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Guenzburg Bezirkskrankenhaus</name>
+      <Point><coordinates>10.291178055556,48.456289166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Memmingen Klinikum</name>
+      <Point><coordinates>10.168769166667,47.982647222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ulm BWK Dach</name>
+      <Point><coordinates>9.9477080555556,48.425031111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Biberach an der Riss Sana Kliniken</name>
+      <Point><coordinates>9.7793391666667,48.113103055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Gotha Helios Kreiskrankenhaus</name>
+      <Point><coordinates>10.678889166667,50.928889166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Suhl SRH Zentralklinikum</name>
+      <Point><coordinates>10.710386111111,50.603042222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hildburghausen Helios</name>
+      <Point><coordinates>10.747614166667,50.42895</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nordhausen</name>
+      <Point><coordinates>10.794835,51.513801111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Arnstedt Kreiskrankenhaus</name>
+      <Point><coordinates>10.94075,50.839472222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Erfurt Helios Klinikum</name>
+      <Point><coordinates>11.012047222222,50.994328055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Donauwoerth</name>
+      <Point><coordinates>10.769259166667,48.707485</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nuernbergnord</name>
+      <Point><coordinates>11.062536111111,49.463169166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Roth</name>
+      <Point><coordinates>11.100125,49.217347222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Garmisch Partenkirchen Klinikum</name>
+      <Point><coordinates>11.128996111111,47.484378055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hiloplstein</name>
+      <Point><coordinates>11.184764166667,49.18535</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Dippenricht</name>
+      <Point><coordinates>11.363626111111,49.253676111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ingolstadt Klinikum</name>
+      <Point><coordinates>11.372556111111,48.770472222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Dachau Klinikum</name>
+      <Point><coordinates>11.429333333333,48.265667222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bayreuth Klinikum</name>
+      <Point><coordinates>11.535556111111,49.944444444444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Muenchen Sued</name>
+      <Point><coordinates>11.548333333333,48.103028055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Deutsches Herzzentrum</name>
+      <Point><coordinates>11.548348055556,48.152695</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Muenchen Krankenhaus Harlaching</name>
+      <Point><coordinates>11.5599,48.08355</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ottobrunn</name>
+      <Point><coordinates>11.653674166667,48.048115</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Roding Firma Muehlbauer</name>
+      <Point><coordinates>12.502803055556,49.218403055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Roding Dachlandeplatz</name>
+      <Point><coordinates>12.505181111111,49.215297222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Straubing St. Elisabeth</name>
+      <Point><coordinates>12.590786111111,48.885917222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Deggendorf Donauisar</name>
+      <Point><coordinates>12.970869166667,48.839261111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FFB Kreisklinik</name>
+      <Point><coordinates>11.259064166667,48.180472222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Klinikum Grosshardern</name>
+      <Point><coordinates>11.465331111111,48.110546111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Regensburg Uni</name>
+      <Point><coordinates>12.091944166667,48.984444444444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Metten</name>
+      <Point><coordinates>12.935,48.859667222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Klinikum Bogenhausen</name>
+      <Point><coordinates>11.626172222222,48.154307222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BGU Murnau</name>
+      <Point><coordinates>11.215546111111,47.672075</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Traunstein Kreiskrankenhaus</name>
+      <Point><coordinates>12.631111111111,47.874167222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ebersberg Kreisklinik</name>
+      <Point><coordinates>11.958539166667,48.081242222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Regensburg Uni SL1</name>
+      <Point><coordinates>12.092333333333,48.987833055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Agatharied Krankenhaus</name>
+      <Point><coordinates>11.828333333333,47.768333333333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Berchtesgaden Resort</name>
+      <Point><coordinates>13.046752222222,47.634595</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Vogtareuth Schoen Klinik</name>
+      <Point><coordinates>12.188985,47.946761111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Oberschleissheim</name>
+      <Point><coordinates>11.565418055556,48.237949166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Schwabing Staedt</name>
+      <Point><coordinates>11.577546111111,48.170957222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rosenheim Klinikum</name>
+      <Point><coordinates>12.132254166667,47.860411111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Viechtach Kreiskrankenhaus</name>
+      <Point><coordinates>12.874122222222,49.085581111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Passau Kinikum</name>
+      <Point><coordinates>13.444722222222,48.563611111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Fuessen Klinikum</name>
+      <Point><coordinates>10.707063055556,47.566943055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Muenchen RD Isar</name>
+      <Point><coordinates>11.600694166667,48.136026111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pullenreuth</name>
+      <Point><coordinates>11.992333333333,49.910611111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Amberg Klinikum St. Marien</name>
+      <Point><coordinates>11.866889166667,49.448375</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Weiden Klinikum</name>
+      <Point><coordinates>12.166389166667,49.681797222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Lichtenfels Klinikum</name>
+      <Point><coordinates>11.081583055556,50.138861111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Waldsassen</name>
+      <Point><coordinates>12.316267222222,50.010378055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pegnitz</name>
+      <Point><coordinates>11.624267222222,49.763906111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mistelgau</name>
+      <Point><coordinates>11.464167222222,49.906111111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Erlangen Uniklinikum</name>
+      <Point><coordinates>11.011132222222,49.600066111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Aerodynamic Iberler</name>
+      <Point><coordinates>11.344331111111,49.206644166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Augsburg Klinikum</name>
+      <Point><coordinates>10.837767222222,48.3845</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Roehrsdorf</name>
+      <Point><coordinates>12.866167222222,50.8625</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Oschatz Collmklinik</name>
+      <Point><coordinates>13.114017222222,51.291816111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Freiberg Kreiskrankenhaus</name>
+      <Point><coordinates>13.351904166667,50.920266111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Elsterwerda Krankenhaus</name>
+      <Point><coordinates>13.522164166667,51.455623055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Coswig Fachkrankenhaus</name>
+      <Point><coordinates>13.593103055556,51.131879166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Freital Kreiskrankenhaus</name>
+      <Point><coordinates>13.645465,50.991822222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Elbepark</name>
+      <Point><coordinates>13.694027222222,51.083767222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Dresden Uniklinikum</name>
+      <Point><coordinates>13.78,51.0575</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Lausitzring MC</name>
+      <Point><coordinates>13.924511111111,51.531917222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pirna Klinikum</name>
+      <Point><coordinates>13.952425,50.958611111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Senftenberg Ackerstraße</name>
+      <Point><coordinates>13.988211111111,51.530653055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Senftenberg Klinikbereich</name>
+      <Point><coordinates>14.000456111111,51.528036111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sebnitz Kreiskrankenhaus</name>
+      <Point><coordinates>14.268333333333,50.982778055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Lausitzer Seenland</name>
+      <Point><coordinates>14.273544166667,51.442294166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Spremberg</name>
+      <Point><coordinates>14.407,51.56898</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bautzen Krankenhaus</name>
+      <Point><coordinates>14.430389166667,51.185056111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Goerlitz Staedt Klinikum</name>
+      <Point><coordinates>14.969667222222,51.161122222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Friedrichstadt Krankenhaus</name>
+      <Point><coordinates>13.716089166667,51.058417222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Zschopau Klinikum</name>
+      <Point><coordinates>13.080003055556,50.733794166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Elblandkliniken</name>
+      <Point><coordinates>13.505833055556,51.175</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Chemnitz Klinikum</name>
+      <Point><coordinates>12.885267222222,50.845714166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Oggenhausen</name>
+      <Point><coordinates>10.230191111111,48.668734166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Heidenheim Klinikum</name>
+      <Point><coordinates>10.138864166667,48.672731111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Aalen Ostalbklinikum</name>
+      <Point><coordinates>10.085763055556,48.849823055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ellenberg Schweizerhof</name>
+      <Point><coordinates>10.209366111111,48.99219</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Dinkelsbuehl</name>
+      <Point><coordinates>10.401581111111,49.065944166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sonneberg Regiomed Klinik</name>
+      <Point><coordinates>11.162256111111,50.354019166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Berka Zentral Boden</name>
+      <Point><coordinates>11.263875,50.889911111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sangerhausen Krankenhaus</name>
+      <Point><coordinates>11.309683055556,51.47155</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Weimar Sophien Hufeland</name>
+      <Point><coordinates>11.322025,50.960775</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Saalfeld Klinikum</name>
+      <Point><coordinates>11.342111111111,50.643939166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Eisleben Helios</name>
+      <Point><coordinates>11.540917222222,51.533639166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Jena Klinikum</name>
+      <Point><coordinates>11.619167222222,50.886667222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bernburg Klinikum</name>
+      <Point><coordinates>11.735,51.781667222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Halledoelau Staedt Krankenhaus</name>
+      <Point><coordinates>11.88,51.503889166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kroellwitz Uni</name>
+      <Point><coordinates>11.9355,51.501</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wiessenfels Asklepios</name>
+      <Point><coordinates>11.955411111111,51.193658055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Halle Elisabeth und Barbara</name>
+      <Point><coordinates>11.968889166667,51.477222222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Halle Berufsgen. Kliniken</name>
+      <Point><coordinates>11.987694166667,51.460553055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Schkeuditz ADAC LRZ</name>
+      <Point><coordinates>12.1925,51.351111111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Dessau Staedt Klinikum</name>
+      <Point><coordinates>12.197283055556,51.815883055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Schoeneck Paracelsus</name>
+      <Point><coordinates>12.335964166667,50.397783055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Leipzig Staedt</name>
+      <Point><coordinates>12.37593,51.383212222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Leipzig St. Elisabethkrankenhaus</name>
+      <Point><coordinates>12.378737222222,51.303471111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Leipzig Uni Operative</name>
+      <Point><coordinates>12.387444444444,51.330306111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Leipzig Uni Zentrallager</name>
+      <Point><coordinates>12.388831111111,51.329133055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Zwickau Heinrich Braun</name>
+      <Point><coordinates>12.429208055556,50.719919166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Leipzig Herzzentrum Dach</name>
+      <Point><coordinates>12.435681111111,51.307575</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Leipzig Herzzentrum Boden</name>
+      <Point><coordinates>12.436758055556,51.306047222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Borna Sana Klinikum</name>
+      <Point><coordinates>12.506517222222,51.135486111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FA Ulrich Altner</name>
+      <Point><coordinates>12.649067222222,51.246014166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Erlabrunn Kliniken</name>
+      <Point><coordinates>12.707056111111,50.471833055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>AUE Helios Klinikum</name>
+      <Point><coordinates>12.716111111111,50.593056111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Berka Zentral Dach</name>
+      <Point><coordinates>11.266222222222,50.889922222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Loerrach Kreiskrankenhaus</name>
+      <Point><coordinates>7.6589,47.614384166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Schwarzwaldbaar Klinikum</name>
+      <Point><coordinates>8.4807272222222,47.95602</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Freiburg St. Josefskrankenhaus</name>
+      <Point><coordinates>7.8519230555556,48.001566111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Freiburg Uniklinikum FR2</name>
+      <Point><coordinates>7.8402280555556,48.006789166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Freiburg Uniklinikum FR1</name>
+      <Point><coordinates>7.8392472222222,48.007469166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rottweil Helios Klinik</name>
+      <Point><coordinates>8.61126,48.165165</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Polizeistuetzpunkt</name>
+      <Point><coordinates>8.57487,48.173511111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Norddach Firma Junker</name>
+      <Point><coordinates>8.0723030555556,48.391028055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Freudenstadt Krankenhaus</name>
+      <Point><coordinates>8.40455,48.476917222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bruchsal</name>
+      <Point><coordinates>8.56264,49.122004166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Saarbruecken</name>
+      <Point><coordinates>6.9986891666667,49.222261111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>KL Westpfalz Klinikum</name>
+      <Point><coordinates>7.7569280555556,49.441683055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>St. Wendel Golfhotel</name>
+      <Point><coordinates>7.1387111111111,49.474894166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BGU Ludwigshafen</name>
+      <Point><coordinates>8.3891672222222,49.486389166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mannheim Theresienkrankenhaus</name>
+      <Point><coordinates>8.4813672222222,49.489394166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ludwigshafen</name>
+      <Point><coordinates>8.4247222222222,49.491111111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Gruenstadt Kreiskrankenhaus</name>
+      <Point><coordinates>8.1583333333333,49.563167222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Worms Klinikum</name>
+      <Point><coordinates>8.3211111111111,49.648611111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rottweil Krankenhaus</name>
+      <Point><coordinates>8.6361111111111,48.149444444444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Karlsruhe Staedt</name>
+      <Point><coordinates>8.3748280555556,49.018365</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Klinik Bruchsal</name>
+      <Point><coordinates>8.6027780555556,49.132222222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Zentralklinikum Villingen Schwenningen</name>
+      <Point><coordinates>8.5010280555556,48.066278055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Braeunlingen Firma Straub</name>
+      <Point><coordinates>8.461825,47.927725</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Lahr ETT Ortenau Klinikum</name>
+      <Point><coordinates>7.8871172222222,48.344067222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rueppurr Diakonie</name>
+      <Point><coordinates>8.4091672222222,48.970833055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SRH Klinikum</name>
+      <Point><coordinates>8.503,48.9045</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mannheim Klinikum</name>
+      <Point><coordinates>8.4864311111111,49.493264166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pforzheim Krankenhaus</name>
+      <Point><coordinates>8.6734061111111,48.897892222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pforzheim Arcus</name>
+      <Point><coordinates>8.6655,48.897833055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Heidelberg Uniklinikum</name>
+      <Point><coordinates>8.6698330555556,49.4215</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Krozingen Herzzentrum</name>
+      <Point><coordinates>7.69889,47.907408055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Offenburg Kreiskrankenhaus</name>
+      <Point><coordinates>7.955,48.476389166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Speyer Diakonie</name>
+      <Point><coordinates>8.4355830555556,49.310444444444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Heidelberg Chirurg Dach</name>
+      <Point><coordinates>8.6657061111111,49.415203055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Neunkirchen Staedt</name>
+      <Point><coordinates>7.1830561111111,49.341389166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Homburg Saar Uniklinik</name>
+      <Point><coordinates>7.345,49.306667222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Singen Hegauklinikum</name>
+      <Point><coordinates>8.82124,47.760212222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Muelhausen</name>
+      <Point><coordinates>8.8215172222222,47.805763055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Balingen Krankenhaus</name>
+      <Point><coordinates>8.8633861111111,48.287047222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Burladingen Firma Trigema</name>
+      <Point><coordinates>9.106745,48.287656111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Reutlingen Klinikum</name>
+      <Point><coordinates>9.2184311111111,48.483972222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Reutlingenbetzingen</name>
+      <Point><coordinates>9.1545130555556,48.491522222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tuebingen Cronakliniken</name>
+      <Point><coordinates>9.0381391666667,48.529573055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tuebingen Unfallklinik</name>
+      <Point><coordinates>9.0356391666667,48.532906111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nagold Kreiskrankenhaus</name>
+      <Point><coordinates>8.7229780555556,48.541713055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tuttlingen Klinikum</name>
+      <Point><coordinates>8.8314172222222,47.985175</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pfronstettenaichelau</name>
+      <Point><coordinates>9.3944472222222,48.288439166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Konstanz Klinikum</name>
+      <Point><coordinates>9.188675,47.671989166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Schwalmstadt Krankenhaus</name>
+      <Point><coordinates>9.1663891666667,50.909722222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Schwalmstadt Asklepios</name>
+      <Point><coordinates>9.2552080555556,50.921336111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kassel Rotes Kreuz Krankenhaus</name>
+      <Point><coordinates>9.4534722222222,51.311667222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kassel Klinikum</name>
+      <Point><coordinates>9.5094011111111,51.328549166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Fulda Klinikum</name>
+      <Point><coordinates>9.7042091666667,50.545843055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Salzungen Klinikum</name>
+      <Point><coordinates>10.216731111111,50.804194166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Eisenach St. Georg</name>
+      <Point><coordinates>10.316667222222,50.9875</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Meiningen Helios Klinikum</name>
+      <Point><coordinates>10.398942222222,50.557083055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Muehlhausen Klinikum</name>
+      <Point><coordinates>10.468736111111,51.200392222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Aachen Uniklinikum</name>
+      <Point><coordinates>6.0443811111111,50.775672222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rhein Maas Klinikum</name>
+      <Point><coordinates>6.1432141666667,50.814897222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kalkar</name>
+      <Point><coordinates>6.3226441666667,51.764617222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Krefeld Klinikum</name>
+      <Point><coordinates>6.56525,51.321281111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Goennersdorf am Achelshof</name>
+      <Point><coordinates>6.5825,50.327</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Trier Barmherzige Muetter</name>
+      <Point><coordinates>6.6408330555556,49.762833055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mechernich Kreiskrankenhaus</name>
+      <Point><coordinates>6.6500261111111,50.592072222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Duisburg BG Dach</name>
+      <Point><coordinates>6.78602,51.381404166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Duisburg BG Boden</name>
+      <Point><coordinates>6.7867641666667,51.380639166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Duesseldorf Uniklink</name>
+      <Point><coordinates>6.7892530555556,51.195258055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Dormagen</name>
+      <Point><coordinates>6.80926,51.073728055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wittlich St. Elisabeth</name>
+      <Point><coordinates>6.8930561111111,49.999722222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Koeln Uniklinik UKK2</name>
+      <Point><coordinates>6.9197941666667,50.923928055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nippes St. Vinzenz</name>
+      <Point><coordinates>6.9457641666667,50.966753055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Koelndeutz Messe</name>
+      <Point><coordinates>6.9809030555556,50.943186111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Essen Uniklinikum</name>
+      <Point><coordinates>6.9890561111111,51.433561111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Koelnmerheim</name>
+      <Point><coordinates>7.0541111111111,50.938611111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Grafschaft Haribo</name>
+      <Point><coordinates>7.0894672222222,50.576917222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Venusberg Uni</name>
+      <Point><coordinates>7.1024061111111,50.701775</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>St. Johanneskrankenhaus</name>
+      <Point><coordinates>7.1181061111111,50.796814166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Marl</name>
+      <Point><coordinates>7.1238891666667,51.663889166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Trier Mutterhaus</name>
+      <Point><coordinates>6.6308891666667,49.754361111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Zuerburgring Hotel</name>
+      <Point><coordinates>6.9430561111111,50.331111111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Eschweiler St. Antonius</name>
+      <Point><coordinates>6.2644672222222,50.818481111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Duisburg Nord Ev.</name>
+      <Point><coordinates>6.7667280555556,51.515839166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Frechen Katharinen</name>
+      <Point><coordinates>6.8087111111111,50.923161111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MGL St. Franziskus</name>
+      <Point><coordinates>6.4216,51.217308055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Duisburg Wedau Sana Kliniken</name>
+      <Point><coordinates>6.7825561111111,51.396028055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Coesfeld</name>
+      <Point><coordinates>7.1747641666667,51.943912222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bochum</name>
+      <Point><coordinates>7.2108691666667,51.468685</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Dattenberg Firma SP</name>
+      <Point><coordinates>7.3028030555556,50.557397222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Leubsdorf</name>
+      <Point><coordinates>7.3144444444444,50.544444444444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ennepetal Oelklinghausen</name>
+      <Point><coordinates>7.32863,51.292594166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Herdecke</name>
+      <Point><coordinates>7.399175,51.400637222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DHD Heliservice</name>
+      <Point><coordinates>7.4241761111111,50.353252222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Saffig</name>
+      <Point><coordinates>7.4308111111111,50.374133055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DO Klinikzentrum Nord</name>
+      <Point><coordinates>7.4547222222222,51.533333333333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Neuwied Elisabeth</name>
+      <Point><coordinates>7.4715,50.428</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Luenen St. Marienhospital</name>
+      <Point><coordinates>7.5152691666667,51.618947222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Koblenz BWZK</name>
+      <Point><coordinates>7.5452780555556,50.367778055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Gummersbach Kreiskrankenhaus</name>
+      <Point><coordinates>7.5683191666667,51.014846111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Muenster Zentralklinikum</name>
+      <Point><coordinates>7.5905561111111,51.960556111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Boppard Jakobsberg</name>
+      <Point><coordinates>7.5958191666667,50.256318055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Kreuznach Marienwoerth</name>
+      <Point><coordinates>7.8621672222222,49.847</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ahlennord</name>
+      <Point><coordinates>7.9096561111111,51.783652222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Siegen Jungstillkrankenhaus</name>
+      <Point><coordinates>8.018255,50.85181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mainz Uniklinikum</name>
+      <Point><coordinates>8.2546580555556,49.994131111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Erwitte</name>
+      <Point><coordinates>8.3407041666667,51.611171111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Lintel</name>
+      <Point><coordinates>8.363755,51.838646111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Berleburg</name>
+      <Point><coordinates>8.3787572222222,51.049845</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Guetersloh</name>
+      <Point><coordinates>8.4201361111111,51.907527222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bielefeld Krankenhaus</name>
+      <Point><coordinates>8.5442841666667,52.014737222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Frankfurt Hoechst</name>
+      <Point><coordinates>8.5471141666667,50.109825</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stukenbrock</name>
+      <Point><coordinates>8.6028872222222,51.867532222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Frankfurt am Main Nordwestkrankenhaus</name>
+      <Point><coordinates>8.6195630555556,50.150778055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Oerlinghausen</name>
+      <Point><coordinates>8.6473241666667,51.945301111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Frankfurt am Main Uniklinik</name>
+      <Point><coordinates>8.6625,50.0955</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Burgholzhausen Rotorflug</name>
+      <Point><coordinates>8.6663333333333,50.264333333333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Giessen Uniklinikum</name>
+      <Point><coordinates>8.6670561111111,50.575806111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Rothenfelde Kliniken</name>
+      <Point><coordinates>8.1658330555556,52.113333333333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Marburg</name>
+      <Point><coordinates>8.8076780555556,50.814758055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Soden</name>
+      <Point><coordinates>8.5144444444444,50.15</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Homburg Hochtaunuskliniken</name>
+      <Point><coordinates>8.6191672222222,50.212417222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Darmstadt Klinikum</name>
+      <Point><coordinates>8.645345,49.874576111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wetzlar Lahndillkliniken</name>
+      <Point><coordinates>8.5283941666667,50.537164166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Giessen Johanniter</name>
+      <Point><coordinates>8.6526311111111,50.5724</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nuertingen Medius Klinik</name>
+      <Point><coordinates>9.3590391666667,48.628819166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kirchheim unter Teck Medius</name>
+      <Point><coordinates>9.44308,48.652063055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Boeblingen Krankenhaus</name>
+      <Point><coordinates>9.0322,48.690561111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sindelfingen Daimler AG</name>
+      <Point><coordinates>8.9856441666667,48.692888888889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Calw Kreiskrankenhaus</name>
+      <Point><coordinates>8.7466672222222,48.715</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ostfildernruit Medius</name>
+      <Point><coordinates>9.2546111111111,48.741806111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Untertuerkheim Daimler AG</name>
+      <Point><coordinates>9.2397722222222,48.782047222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stuttgart Katharinen</name>
+      <Point><coordinates>9.173115,48.78399</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Gerlingen Firma Bosch</name>
+      <Point><coordinates>9.0628530555556,48.785378055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Leonberg Kreiskrankenhaus</name>
+      <Point><coordinates>8.9992511111111,48.803153055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mutlangen Stauferklinikum</name>
+      <Point><coordinates>9.787195,48.820102222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Schwieberdingen Bosch</name>
+      <Point><coordinates>9.0820161111111,48.8837</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pforzheim Klinikum</name>
+      <Point><coordinates>8.7120430555556,48.888683055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ludwigsburg Klinik</name>
+      <Point><coordinates>9.2039430555556,48.899533055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Markgroeningen Klinik</name>
+      <Point><coordinates>9.1088891666667,48.908889166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Loewenstein Klink</name>
+      <Point><coordinates>9.4019672222222,49.089513055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Schwäbisch Hall Diakonie</name>
+      <Point><coordinates>9.74164,49.125067222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Klinikum am Gesundbrunnen</name>
+      <Point><coordinates>9.1901291666667,49.153018055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Obersoellbach Firma Helix</name>
+      <Point><coordinates>9.5585441666667,49.184097222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Friedrichshall Klinikum</name>
+      <Point><coordinates>9.2367330555556,49.213009166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Oedheim</name>
+      <Point><coordinates>9.234405,49.241479166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mosbach Kreiskrankenhaus</name>
+      <Point><coordinates>9.1526941666667,49.355555555556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Erbach Odenwald Kreiskrankenhaus</name>
+      <Point><coordinates>9.0016891666667,49.651986111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ochsenfurt Kreiskrankenhaus</name>
+      <Point><coordinates>10.086736111111,49.659711111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Iphofen Firma Knauf</name>
+      <Point><coordinates>10.282436111111,49.694861111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wuerzburg</name>
+      <Point><coordinates>9.95632,49.808324166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Grossumstadt Kreisklinik</name>
+      <Point><coordinates>8.9355222222222,49.866657222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Offenbach Klinikum</name>
+      <Point><coordinates>8.7570161111111,50.094506111111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Frankfurt BG</name>
+      <Point><coordinates>8.7090191666667,50.145447222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hammelburg Unterer Thal</name>
+      <Point><coordinates>9.87577,50.157173055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Kissingen Elisabeth</name>
+      <Point><coordinates>10.082639166667,50.190275</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Winnenden Klinik</name>
+      <Point><coordinates>9.3932111111111,48.870194166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Stuttgart Marienhospital</name>
+      <Point><coordinates>9.1638561111111,48.761074166667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Esslingen Klinikum</name>
+      <Point><coordinates>9.3269972222222,48.737533055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Seitenbacher</name>
+      <Point><coordinates>9.3409172222222,49.5282</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sindelfingen Staedt Krankenhaus</name>
+      <Point><coordinates>9.0245261111111,48.715108055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Mergentheim Krankenhaus</name>
+      <Point><coordinates>9.7630030555556,49.489292222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Frankfurt BGU LRZ Dach</name>
+      <Point><coordinates>8.7102,50.145467222222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Neustadt Saale</name>
+      <Point><coordinates>10.235075,50.322678055556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bad Cannstadt Robert Bosch</name>
+      <Point><coordinates>9.1854672222222,48.813872222222</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

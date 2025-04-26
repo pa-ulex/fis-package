@@ -1,0 +1,79 @@
+[profiles]
+
+[profiles.FIS]
+maps = [
+    { map = "topsky-fis-maps", target = "Plugins/FIS/TopSky/TopSkyMaps.txt" },
+    { map = "topsky-fis-settings", target = "Plugins/FIS/TopSky/TopSkySettings.txt" },
+]
+dir = "EDXX"
+aliases = [ "edxx" ]
+
+#------------Common------------
+
+[data.cities]
+type = "kml"
+source = "kml/Cities.kml"
+
+[data.autobahn]
+type = "kml"
+source = "kml/Autobahn.kml"
+
+[data.autobahn_labels]
+type = "kml"
+source = "kml/Autobahn_Labels.kml"
+
+[data.rivers]
+type = "kml"
+source = "kml/Rivers.kml"
+
+[data.rivers_labels]
+type = "kml"
+source = "kml/Rivers_Labels.kml"
+
+[data.lakes]
+type = "kml"
+source = "kml/Lakes.kml"
+
+[data.hospitals]
+type = "kml"
+source = "kml/Hospitals.kml"
+
+[data.sectors]
+type = "raw"
+source = "misc/sectors.txt"
+
+[data.airspace_c]
+type = "raw"
+source = "misc/airspace-c.txt"
+
+[data.airspace_d]
+type = "raw"
+source = "misc/airspace-d.txt"
+
+[data.airspace_e]
+type = "raw"
+source = "misc/airspace-e.txt"
+
+[data.airspace_tmz_rmz]
+type = "raw"
+source = "misc/airspace-tmz-rmz.txt"
+
+[data.airspace_labels]
+type = "raw"
+source = "misc/airspace-labels.txt"
+
+[data.coastline]
+type = "raw"
+source = "misc/coast.txt"
+
+#--------------MVA-------------
+
+[data.mva_summer]
+type = "raw"
+source = "misc/mva/mva_summer.txt"
+
+[data.mva_winter]
+type = "raw"
+source = "misc/mva/mva_winter.txt"
+
+[runways]

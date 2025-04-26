@@ -12,3 +12,19 @@ EDXX/Settings/VoiceChannels.txt
 *.sct
 *.ese
 
+mapbuilder/mapbuilder/*
+mapbuilder/flake.*
+mapbuilder/poetry.*
+mapbuilder/pyproject.*
+mapbuilder/.envrc
+mapbuilder/.gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+/build
+/dist
+/.idea
+/.direnv
+/.ruff_cache
+/result*
+/EDXX/.cache

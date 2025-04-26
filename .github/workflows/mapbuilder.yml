@@ -1,0 +1,46 @@
+name: mapbuilder
+run-name: mapbuilder -> Build Maps
+on:
+  push:
+    branches:
+      - "*"
+      - "*/**"
+      - "!main"
+
+  workflow_dispatch:
+
+permissions: write-all
+jobs:
+  mapbuilder-build-maps:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo content
+        uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install poetry
+        uses: abatilo/actions-poetry@v4
+        with:
+          poetry-version: 'latest'
+
+      - name: Install the project dependencies
+        working-directory: ./.github/workflows/mapbuilder
+        run: poetry install
+
+      - name: Run mapbuilder
+        working-directory: ./.github/workflows/mapbuilder
+        run: poetry run mapbuilder --debug -s "../../../mapbuilder" "../../../EDXX"
+        
+      - name: Commit and push files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions"
+          git add -A
+          git diff-index --quiet HEAD || git commit -m "[AUTO] mapbuilder ${{ github.sha }}" --allow-empty
+          git push origin HEAD:${{ github.ref }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
