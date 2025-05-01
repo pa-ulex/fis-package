@@ -28,6 +28,13 @@ COLOR:topo_water
 {{- geom | to_poly(name, 'topo_water', 100) }}
 {% endfor %}
 
+MAP:Coastline
+FOLDER:Topo
+LAYER:-2
+STYLE:Solid:1
+COLOR:standard
+{{ data.coastline }}
+
 MAP:Cities
 FOLDER:Topo
 LAYER:-2
@@ -75,9 +82,11 @@ COLOR:topo_water
 {{- geom | to_text(label) }}
 {% endfor %}
 
-MAP:Coastline
+MAP:German Border
 FOLDER:Topo
-LAYER:-2
+LAYER:-3
 STYLE:Solid:1
 COLOR:standard
-{{ data.coastline }}
+{% for uuid, geom in data.border.items() %}
+{{- geom | to_coordline(uuid) }}
+{% endfor %}
