@@ -58,6 +58,10 @@ source = "misc/airspace-c.txt"
 type = "raw"
 source = "misc/airspace-d.txt"
 
+[data.airspace_d_ctr]
+type = "raw"
+source = "misc/airspace-d-ctr.txt"
+
 [data.airspace_e]
 type = "raw"
 source = "misc/airspace-e.txt"
