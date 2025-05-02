@@ -14,9 +14,6 @@ ARTCC boundary:AoR CTR EDXX GGCIDS:
 ARTCC boundary:AoR CTR EDXX GGCIDV:
 ARTCC boundary:AoR CTR EDXX GGCISW:
 ARTCC boundary:EDXX GGCIDB:
-ARTCC boundary:FIR border EDGG:
-ARTCC boundary:FIR border EDMM:
-ARTCC boundary:FIR border EDWW FIR EDWW:
 SHOWC:1
 SHOWSB:0
 BELOW:0
