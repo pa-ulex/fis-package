@@ -46,37 +46,37 @@ source = "kml/Border.kml"
 type = "raw"
 source = "misc/coast.txt"
 
-[data.sectors]
+[data.fis_sectors]
 type = "raw"
-source = "misc/sectors.txt"
+source = "misc/fis-sectors.txt"
 
 [data.airspace_c]
 type = "raw"
-source = "misc/airspace-c.txt"
+source = "misc/airspace/airspace-c.txt"
 
 [data.airspace_d]
 type = "raw"
-source = "misc/airspace-d.txt"
+source = "misc/airspace/airspace-d.txt"
 
 [data.airspace_d_ctr]
 type = "raw"
-source = "misc/airspace-d-ctr.txt"
+source = "misc/airspace/airspace-d-ctr.txt"
 
 [data.airspace_e]
 type = "raw"
-source = "misc/airspace-e.txt"
+source = "misc/airspace/airspace-e.txt"
 
 [data.airspace_tmz_rmz]
 type = "raw"
-source = "misc/airspace-tmz-rmz.txt"
+source = "misc/airspace/airspace-tmz-rmz.txt"
 
 [data.airspace_special]
 type = "raw"
-source = "misc/airspace-special.txt"
+source = "misc/airspace/airspace-special.txt"
 
 [data.airspace_labels]
 type = "raw"
-source = "misc/airspace-labels.txt"
+source = "misc/airspace/airspace-labels.txt"
 
 #--------------MVA-------------
 
