@@ -146,6 +146,7 @@ Color_WM_Frame=195,195,185
 Color_VFR=0,0,255
 
 HTTP_AUP_URL=https://atciss.vatsim-germany.org/api/areas/topsky
+Areas_Remote_Activation=1
 
 Malrt_Misap=MAPP
 Malrt_Inbound_EST=EST

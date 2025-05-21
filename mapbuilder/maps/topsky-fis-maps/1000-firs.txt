@@ -1,4 +1,4 @@
-MAP:FIRs
+MAP:EDXX FIRs
 FOLDER:ALL
 COLOR:standard
 STYLE:Solid:1

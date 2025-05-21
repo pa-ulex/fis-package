@@ -50,9 +50,13 @@ source = "misc/coast.txt"
 type = "raw"
 source = "misc/fis-sectors.txt"
 
-[data.external_fis_sectors]
+[data.neighbour_fis_sectors]
 type = "raw"
-source = "misc/external-fis-sectors.txt"
+source = "misc/neighbour-fis-sectors.txt"
+
+[data.neighbour_firs]
+type = "raw"
+source = "misc/neighbour-firs.txt"
 
 [data.airspace_c]
 type = "raw"
