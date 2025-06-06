@@ -1,8 +1,11 @@
+//---------------------------------------------------------------
+//                            Navaids
+//---------------------------------------------------------------
+
 MAP:Navaids
 FOLDER:ALL
 COLOR:standard
 LAYER:-1
-ACTIVE:1
 SYMBOL:DME:KHD
 SYMBOL:DME:TRT
 SYMBOL:NDB:NOR

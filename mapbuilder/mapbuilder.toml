@@ -8,7 +8,7 @@ maps = [
 dir = "EDXX"
 aliases = [ "edxx" ]
 
-#------------Common------------
+#------------Topo------------
 
 [data.urban_areas]
 type = "kml"
@@ -46,6 +46,8 @@ source = "kml/Border.kml"
 type = "raw"
 source = "misc/coast.txt"
 
+#----------FIS + FIRs----------
+
 [data.fis_sectors]
 type = "raw"
 source = "misc/fis-sectors.txt"
@@ -57,6 +59,8 @@ source = "misc/neighbour-fis-sectors.txt"
 [data.neighbour_firs]
 type = "raw"
 source = "misc/neighbour-firs.txt"
+
+#-------------ASPC-------------
 
 [data.airspace_c]
 type = "raw"
@@ -85,6 +89,14 @@ source = "misc/airspace/airspace-special.txt"
 [data.airspace_labels]
 type = "raw"
 source = "misc/airspace/airspace-labels.txt"
+
+[data.glid_sectors]
+type = "raw"
+source = "misc/glider/glid_sectors.txt"
+
+[data.wave_glid_sectors]
+type = "raw"
+source = "misc/glider/wave_glid_sectors.txt"
 
 #--------------MVA-------------
 
