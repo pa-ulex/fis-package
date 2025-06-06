@@ -18,3 +18,16 @@ TEXT:N053.16.30.100:E006.39.17.500:Dutch Mil (Info) | 132.350
 TEXT:N053.16.30.100:E006.39.17.500:if Eelde APP online | 120.305:0:20
 FONTSIZE:=:20
 TEXT:N051.44.00.700:E005.29.12.300:Dutch Mil (Info) | 132.350
+
+//Brussels
+TEXT:N050.20.40.500:E005.28.36.500:Brussels Information | 126.900
+
+//Switzerland
+TEXT:N047.33.31.500:E008.43.04.900:Swiss Information | 124.700
+
+//Austria
+TEXT:N047.12.02.900:E011.11.16.100:Wien Information | 124.400
+
+//Poland
+TEXT:N052.40.54.900:E016.11.11.200:Warszawa Information | 134.875
+TEXT:N052.40.54.900:E016.11.11.200:Poznan Information | 126.300:0:30

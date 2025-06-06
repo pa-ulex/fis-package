@@ -1,5 +1,5 @@
 MAP:Navaids
-FOLDER:Labels
+FOLDER:ALL
 COLOR:standard
 LAYER:-1
 ACTIVE:1

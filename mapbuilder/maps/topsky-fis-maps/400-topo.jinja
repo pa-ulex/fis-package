@@ -7,7 +7,7 @@ FOLDER:Topo
 LAYER:-2
 STYLE:Solid:1
 TEXTALIGN:LC
-{% for uuid, geom in data.cities.items() %}
+{% for uuid, geom in data.urban_areas.items() %}
 {{- geom | to_poly('', 'topo_urban', 100) }}
 {% endfor %}
 COLOR:topo_road
@@ -35,12 +35,12 @@ STYLE:Solid:1
 COLOR:standard
 {{ data.coastline }}
 
-MAP:Cities
+MAP:Urban Areas
 FOLDER:Topo
 LAYER:-2
 STYLE:Solid:1
-{% for uuid, geom in data.cities.items() %}
-{{- geom | to_poly('', 'topo_urban', 100) }}
+{% for uuid, geom in data.urban_areas.items() %}
+{{- geom | to_poly(name, 'topo_urban', 100) }}
 {% endfor %}
 
 MAP:Highways
@@ -51,12 +51,6 @@ COLOR:topo_road
 {% for uuid, geom in data.autobahn.items() %}
 {{- geom | to_coordline('') }}
 {% endfor %}
-
-MAP:Highways | Labels
-FOLDER:Topo
-LAYER:-2
-STYLE:Solid:1
-COLOR:topo_road
 {% for label, geom in data.rivers_labels.items() %}
 {{- geom | to_text(label) }}
 {% endfor %}
@@ -72,12 +66,6 @@ COLOR:topo_water
 {% for name, geom in data.lakes.items() %}
 {{- geom | to_poly(name, 'topo_water', 100) }}
 {% endfor %}
-
-MAP:Rivers and Lakes | Labels
-FOLDER:Topo
-LAYER:-2
-STYLE:Solid:1
-COLOR:topo_water
 {% for label, geom in data.rivers_labels.items() %}
 {{- geom | to_text(label) }}
 {% endfor %}

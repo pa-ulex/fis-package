@@ -3,10 +3,16 @@
 //---------------------------------------------------------------
 
 MAP:Airspace | Labels
-FOLDER:Labels
+FOLDER:Airspace
 COLOR:standard
 LAYER:+4
 {{ data.airspace_labels }}
+
+MAP:Airspace C
+FOLDER:Airspace
+COLOR:standard
+ACTIVE:1
+{{ data.airspace_c }}
 
 MAP:Airspace D(CTR)
 FOLDER:Airspace
@@ -14,14 +20,8 @@ COLOR:standard
 ACTIVE:1
 {{ data.airspace_d_ctr }}
 
-MAP:Airspace C
-FOLDER:Common Airspace
-COLOR:standard
-ACTIVE:1
-{{ data.airspace_c }}
-
 MAP:Airspace D
-FOLDER:Common Airspace
+FOLDER:Airspace
 COLOR:standard
 ACTIVE:1
 {{ data.airspace_d }}

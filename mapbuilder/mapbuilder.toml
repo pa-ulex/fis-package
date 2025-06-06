@@ -10,9 +10,9 @@ aliases = [ "edxx" ]
 
 #------------Common------------
 
-[data.cities]
+[data.urban_areas]
 type = "kml"
-source = "kml/Cities.kml"
+source = "kml/Urban_Areas.kml"
 
 [data.autobahn]
 type = "kml"
@@ -96,11 +96,9 @@ source = "misc/mva/mva_summer.txt"
 type = "raw"
 source = "misc/mva/mva_winter.txt"
 
-#--------------VRP-------------
-
 [runways]
 
-#EDGG
+#-------------EDGG-------------
 #EDDF
 
 [runways.EDDF.07R]
