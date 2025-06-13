@@ -38,7 +38,7 @@ WXR_Echo_dBZ_Med=30
 WXR_Echo_dBZ_Lo=25
 
 Color_Active_Map=200,200,200
-Color_Active_Map_Type_1=200,200,200
+Color_Active_Map_Type_1=170,170,170 //ED-R/LANTA/ED-D/ED-P
 Color_Active_Sector=209,209,209
 Color_Active_Text_Map=191,191,191
 Color_AIW_Intrusion=255,168,0
@@ -243,6 +243,7 @@ Shortcut_Map_Xfr_Key=6,0x52 ; R
 Shortcut_Map_Xfr_Key=7,0x42 ; B
 Shortcut_Map_Xfr_Key=8,0x48 ; H
 Shortcut_Map_Xfr_Key=9,0x4E ; N
+Shortcut_Map_Xfr_Key=10,0x47 ; G
 Shortcut_Map_Target=1,Topo\Topography
 Shortcut_Map_Target=2,Topo\Highways
 Shortcut_Map_Target=3,VFR Points\Civil VFR Points
@@ -252,6 +253,7 @@ Shortcut_Map_Target=6,Topo\Rivers and Lakes
 Shortcut_Map_Target=7,FIS\Squawks + Sector Highlight
 Shortcut_Map_Target=8,ALL\Helipads
 Shortcut_Map_Target=9,TMZ/RMZ
+Shortcut_Map_Target=10,Glider Sectors
 
 Menu_MaxListItems=12
 
