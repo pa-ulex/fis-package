@@ -2,8 +2,8 @@
 
 [profiles.FIS]
 maps = [
-    { map = "topsky-fis-maps", target = "Plugins/FIS/TopSky/TopSkyMaps.txt" },
-    { map = "topsky-fis-settings", target = "Plugins/FIS/TopSky/TopSkySettings.txt" },
+    { map = "topsky-fis-maps", target = "Plugins/TopSky/FIS/TopSkyMaps.txt" },
+    { map = "topsky-fis-settings", target = "Plugins/TopSky/FIS/TopSkySettings.txt" },
 ]
 dir = "EDXX"
 aliases = [ "edxx" ]
@@ -13,6 +13,10 @@ aliases = [ "edxx" ]
 [data.urban_areas]
 type = "kml"
 source = "kml/Urban_Areas.kml"
+
+[data.urban_labels]
+type = "kml"
+source = "kml/Urban_Labels.kml"
 
 [data.autobahn]
 type = "kml"
@@ -45,6 +49,10 @@ source = "kml/Border.kml"
 [data.coastline]
 type = "raw"
 source = "misc/coast.txt"
+
+[data.obstacles]
+type = "raw"
+source = "misc/obstacles.txt"
 
 #----------FIS + FIRs----------
 
