@@ -25,6 +25,9 @@ Settings	SettingsfileTAXIIN	\EDXX\Settings\General.txt
 Settings	SettingsfileTAXIOUT	\EDXX\Settings\General.txt
 Settings	SettingsfileVCCS	\EDXX\Settings\VCCS.txt
 Settings	SettingsfileVOICE	\EDXX\Settings\VoiceChannels.txt
+Settings	airportcoords	\EDWW\NavData\icao.txt
+Settings	aircraft	\EDWW\ICAO\ICAO_Aircraft.txt
+Settings	airports	\EDWW\ICAO\ICAO_Airports.txt
 Settings	airlines	\EDXX\ICAO\ICAO_Airlines.txt
 Settings	alias	\EDXX\Alias\alias.txt
 Settings	sector	\EDXX-FIS.sct

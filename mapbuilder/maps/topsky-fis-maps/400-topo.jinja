@@ -77,7 +77,6 @@ FOLDER:Topo
 LAYER:-3
 STYLE:Solid:1
 COLOR:standard
-ACTIVE:1
 {% for uuid, geom in data.border.items() %}
 {{- geom | to_coordline(uuid) }}
 {% endfor %}

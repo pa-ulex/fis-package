@@ -48,25 +48,25 @@ source = "kml/Border.kml"
 
 [data.coastline]
 type = "raw"
-source = "misc/coast.txt"
+source = "misc/topo/coast.txt"
 
 [data.obstacles]
 type = "raw"
-source = "misc/obstacles.txt"
+source = "misc/topo/obstacles.txt"
 
 #----------FIS + FIRs----------
 
 [data.fis_sectors]
 type = "raw"
-source = "misc/fis-sectors.txt"
+source = "misc/sectors/fis-sectors.txt"
 
 [data.neighbour_fis_sectors]
 type = "raw"
-source = "misc/neighbour-fis-sectors.txt"
+source = "misc/sectors/neighbour-fis-sectors.txt"
 
 [data.neighbour_firs]
 type = "raw"
-source = "misc/neighbour-firs.txt"
+source = "misc/sectors/neighbour-firs.txt"
 
 #-------------ASPC-------------
 
