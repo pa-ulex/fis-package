@@ -1,41 +1,56 @@
 name: mapbuilder
-run-name: mapbuilder -> Build Maps
+run-name: Build Maps
+
 on:
   push:
-    branches:
-      - "*"
-      - "*/**"
-      - "!main"
-
+    branches-ignore:
+      - main
   workflow_dispatch:
 
 permissions: write-all
+
 jobs:
-  mapbuilder-build-maps:
+  build-maps:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo content
+      - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Install Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.12.10"
 
-      - name: Install poetry
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/pypoetry
+            ~/.cache/pip
+          key: ${{ runner.os }}-poetry-${{ hashFiles('**/poetry.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-poetry-
+
+      - name: Install Poetry
         uses: abatilo/actions-poetry@v4
         with:
           poetry-version: 'latest'
 
-      - name: Install the project dependencies
+      - name: Configure Poetry
+        run: poetry config virtualenvs.in-project true
+        working-directory: ./.github/workflows/mapbuilder
+
+      - name: Install dependencies
         working-directory: ./.github/workflows/mapbuilder
         run: poetry install
 
       - name: Run mapbuilder
         working-directory: ./.github/workflows/mapbuilder
         run: poetry run mapbuilder --debug -s "../../../mapbuilder" "../../../EDXX"
-        
-      - name: Commit and push files
+
+      - name: Commit and push if changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions"

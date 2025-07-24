@@ -11,27 +11,47 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin1">
+	<StyleMap id="m_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
 			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0">
+	<StyleMap id="m_ylw-pushpin2">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="s_ylw-pushpin">
@@ -61,7 +81,43 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<Style id="s_ylw-pushpin01">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin010">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl00">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -79,7 +135,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl0">
+	<Style id="s_ylw-pushpin_hl10">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -397,18 +453,18 @@
 	<Placemark>
 		<name>Rostock</name>
 		<LookAt>
-			<longitude>12.08172121369453</longitude>
-			<latitude>54.07440816786846</latitude>
+			<longitude>12.17262432975138</longitude>
+			<latitude>54.0705372926319</latitude>
 			<altitude>0</altitude>
-			<heading>1.233265337202212</heading>
+			<heading>1.263784575471872</heading>
 			<tilt>0</tilt>
-			<range>24571.4663018959</range>
+			<range>25379.69108253358</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<styleUrl>#m_ylw-pushpin2</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>12.09891334261524,54.09103529970654,0</coordinates>
+			<coordinates>12.1032263680524,54.09177603942513,0</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -511,23 +567,6 @@
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>8.048910283222666,52.27389516734971,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark>
-		<name>Dessau</name>
-		<LookAt>
-			<longitude>12.29021863661043</longitude>
-			<latitude>51.86371742055628</latitude>
-			<altitude>0</altitude>
-			<heading>0.8414112751939944</heading>
-			<tilt>0</tilt>
-			<range>26001.95351989508</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>12.23240215741549,51.82683143026951,0</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -1109,20 +1148,20 @@
 		</Point>
 	</Placemark>
 	<Placemark>
-		<name>Offenbach</name>
+		<name>Aschaffenburg</name>
 		<LookAt>
-			<longitude>8.750141907450859</longitude>
-			<latitude>50.10755118690083</latitude>
+			<longitude>9.006532683740504</longitude>
+			<latitude>50.09529663242662</latitude>
 			<altitude>0</altitude>
-			<heading>-1.123992039498899</heading>
+			<heading>0.1445095040489035</heading>
 			<tilt>0</tilt>
-			<range>19211.62879530209</range>
+			<range>62701.71978678292</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#m_ylw-pushpin1</styleUrl>
+		<styleUrl>#m_ylw-pushpin10</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>8.769139907257873,50.09536515283704,0</coordinates>
+			<coordinates>9.139790641352267,49.98088248202986,0</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -1398,23 +1437,6 @@
 		</Point>
 	</Placemark>
 	<Placemark>
-		<name>Gelsenkirchen</name>
-		<LookAt>
-			<longitude>7.080205265891924</longitude>
-			<latitude>51.5176276533453</latitude>
-			<altitude>0</altitude>
-			<heading>-10.10550327655856</heading>
-			<tilt>0</tilt>
-			<range>8147.990389255453</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#m_ylw-pushpin</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>7.092769152987519,51.51510222265403,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark>
 		<name>Hagen</name>
 		<LookAt>
 			<longitude>7.471738644856202</longitude>
@@ -1650,6 +1672,142 @@
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>9.695273711628328,50.55056621591513,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ravensburg</name>
+		<LookAt>
+			<longitude>9.655269068642429</longitude>
+			<latitude>47.8141068962117</latitude>
+			<altitude>0</altitude>
+			<heading>-0.5574109512148868</heading>
+			<tilt>0</tilt>
+			<range>28684.57136038422</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>9.610765357500743,47.78329999784945,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Venlo</name>
+		<LookAt>
+			<longitude>6.208252001090577</longitude>
+			<latitude>51.37986976497232</latitude>
+			<altitude>0</altitude>
+			<heading>-3.504547731233924</heading>
+			<tilt>0</tilt>
+			<range>14859.63403597409</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>6.172738815027843,51.36998554113586,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Straßburg</name>
+		<LookAt>
+			<longitude>7.800995444608903</longitude>
+			<latitude>48.55523534914072</latitude>
+			<altitude>0</altitude>
+			<heading>-2.262616403349843</heading>
+			<tilt>0</tilt>
+			<range>23282.28865242934</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>7.734818247223025,48.58180789392452,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Basel</name>
+		<LookAt>
+			<longitude>7.663402147164251</longitude>
+			<latitude>47.62682811077098</latitude>
+			<altitude>0</altitude>
+			<heading>-2.361848571908021</heading>
+			<tilt>0</tilt>
+			<range>34728.02358372299</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>7.585066289142086,47.55657612869573,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Minden</name>
+		<LookAt>
+			<longitude>9.09087227379583</longitude>
+			<latitude>52.3622914103197</latitude>
+			<altitude>0</altitude>
+			<heading>-1.374409907460255</heading>
+			<tilt>0</tilt>
+			<range>93597.23322928042</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>8.897325927268147,52.29080914905575,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Stralsund</name>
+		<LookAt>
+			<longitude>13.08873814638866</longitude>
+			<latitude>54.30439091325626</latitude>
+			<altitude>0</altitude>
+			<heading>1.71141237383848</heading>
+			<tilt>0</tilt>
+			<range>11333.08536293992</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>13.07563015652708,54.30718240202904,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Landshut</name>
+		<LookAt>
+			<longitude>12.19116025455649</longitude>
+			<latitude>48.55192214336252</latitude>
+			<altitude>0</altitude>
+			<heading>0.5492250298603749</heading>
+			<tilt>0</tilt>
+			<range>20236.59184806854</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>12.1483688855719,48.54281903606746,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Suhl</name>
+		<LookAt>
+			<longitude>10.70533195793741</longitude>
+			<latitude>50.6169555026738</latitude>
+			<altitude>0</altitude>
+			<heading>-0.6675898362037557</heading>
+			<tilt>0</tilt>
+			<range>32202.83413251795</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>10.69705261715373,50.60892936963621,0</coordinates>
 		</Point>
 	</Placemark>
 </Document>

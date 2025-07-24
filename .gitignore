@@ -12,15 +12,12 @@ EDXX/Alias/alias.txt
 EDXX/Settings/VoiceChannels.txt
 *.sct
 *.ese
-
-//Mapbuilder
 mapbuilder/mapbuilder/*
 mapbuilder/flake.*
 mapbuilder/poetry.*
 mapbuilder/pyproject.*
 mapbuilder/.envrc
 mapbuilder/.gitignore
-//Mapbuilder Local Output
 /EDXX-Dev/*
 __pycache__/
 *.py[cod]

@@ -1,9 +1,10 @@
 Plugins	Plugin0	\EDXX\Plugins\TopSky\FIS\TopSky.dll
 Plugins	Plugin0Display0	Standard ES radar screen
 Plugins	Plugin1	\EDXX\Plugins\AfVEuroScopeBridge.dll
-Plugins	Plugin2	\EDXX\Plugins\CCAMS.dll
-Plugins	Plugin3	\EDXX\Plugins\SquawkIndicator\Squawks.dll
+Plugins	Plugin2	\EDXX\Plugins\Squawk\Squawks.dll
+
 RecentFiles	Recent1	\EDXX\ASR\FIS.asr
+
 Settings	Settingsfile	\EDXX\Settings\General.txt
 Settings	SettingsfileADCS	\EDXX\Settings\General.txt
 Settings	SettingsfileARR	\EDXX\Settings\ArrivalList.txt
@@ -30,11 +31,22 @@ Settings	aircraft	\EDWW\ICAO\ICAO_Aircraft.txt
 Settings	airports	\EDWW\ICAO\ICAO_Airports.txt
 Settings	airlines	\EDXX\ICAO\ICAO_Airlines.txt
 Settings	alias	\EDXX\Alias\alias.txt
-Settings	sector	\EDXX-FIS.sct
-TeamSpeakVccs	Ts3DialogBottom	721
-TeamSpeakVccs	Ts3DialogLeft	119
-TeamSpeakVccs	Ts3DialogRight	1002
-TeamSpeakVccs	Ts3DialogTop	121
-TeamSpeakVccs	TsVccsMiniControlX	729
-TeamSpeakVccs	TsVccsMiniControlY	24
-Sounds	Sound0	\EDXX\Sounds\startup_silent.wav
+Settings	sector	
+Settings	AselKey	5111808
+Settings	FreqKey	3604480
+LastSession	server	AUTOMATIC
+LastSession	atis_freq4	118000
+
+Voice	PPPT	18612224
+Voice	SPPT	18612224
+Voice	bass_filter	1
+
+TeamSpeakVccs	Ts3NickName	YOUR ID
+TeamSpeakVccs	Ts3DialogLeft	0
+TeamSpeakVccs	Ts3DialogTop	0
+TeamSpeakVccs	Ts3DialogRight	890
+TeamSpeakVccs	Ts3DialogBottom	570
+TeamSpeakVccs	TsVccsMiniControlX	1601
+TeamSpeakVccs	TsVccsMiniControlY	44
+
+Sounds	Sound18	\EDXX\Sounds\startup_silent.wav

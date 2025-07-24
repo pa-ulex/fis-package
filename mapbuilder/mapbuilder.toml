@@ -48,7 +48,7 @@ source = "kml/Border.kml"
 
 [data.coastline]
 type = "raw"
-source = "misc/topo/coast.txt"
+source = "misc/topo/coastline.txt"
 
 [data.obstacles]
 type = "raw"
@@ -59,6 +59,10 @@ source = "misc/topo/obstacles.txt"
 [data.fis_sectors]
 type = "raw"
 source = "misc/sectors/fis-sectors.txt"
+
+[data.fis_fir_sectors]
+type = "raw"
+source = "misc/sectors/fir-fis-sectors.txt"
 
 [data.neighbour_fis_sectors]
 type = "raw"
@@ -86,9 +90,9 @@ source = "misc/airspace/airspace-d-ctr.txt"
 type = "raw"
 source = "misc/airspace/airspace-e.txt"
 
-[data.airspace_tmz_rmz]
+[data.airspace_tmz_rmz_atz]
 type = "raw"
-source = "misc/airspace/airspace-tmz-rmz.txt"
+source = "misc/airspace/airspace-tmz-rmz-atz.txt"
 
 [data.airspace_special]
 type = "raw"
@@ -389,9 +393,11 @@ loc = [ 48.766042, 8.068028 ]
 
 [runways.EDTD.18]
 thr = [ 47.979043, 8.521991 ]
+bearing = 177
 
 [runways.EDTD.36]
 thr = [ 47.968266, 8.522413 ]
+bearing = 357
 
 #EDTL
 
@@ -408,9 +414,11 @@ bearing = 28.29
 
 [runways.EDTM.07]
 thr = [ 48.052721, 9.365691 ]
+bearing = 74
 
 [runways.EDTM.25]
 thr = [ 48.055360, 9.382221 ]
+bearing = 254
 
 #EDTY
 
@@ -530,466 +538,468 @@ bearing = 29.29
 thr = [ 50.183685, 7.071950 ]
 bearing = 209.29
 
-#EDWW
+#-------------EDWW-------------
 
 [runways.EDAH.10]
 thr = [ 53.881629, 14.134502 ]
 bearing = 105.51
-fap = [ 53.921496, 13.889413 ] # BUGAH
+# fap = [ 53.921496, 13.889413 ] # BUGAH
 loc = [ ]
 
 [runways.EDAH.28]
 thr = [ 53.876090, 14.168278 ]
 bearing = 285.51
-fap = [ 53.842893, 14.369307 ] # ZACSO
+# fap = [ 53.842893, 14.369307 ] # ZACSO
 loc = [ ]
 
 [runways.EDAY.05]
 thr = [ 52.576447, 13.909111 ]
 bearing = 49.15
-fap = [ 52.541513, 13.842882 ] # MERWU
+# fap = [ 52.541513, 13.842882 ] # MERWU
 loc = [ ]
 
 [runways.EDAY.23]
 thr = [ 52.583502, 13.922506 ]
 bearing = 229.16
-fap = [ 52.632927, 14.016557 ] # OCHUS
+# fap = [ 52.632927, 14.016557 ] # OCHUS
 loc = [ ]
 
 [runways.EDAZ.07]
 thr = [ 52.202566, 13.151474 ]
 bearing = 75.78
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.EDAZ.25]
 thr = [ 52.204997, 13.167096 ]
 bearing = 255.79
-fap = [ 52.221543, 13.273610 ] # TRIBY
+# fap = [ 52.221543, 13.273610 ] # TRIBY
 loc = [ ]
 
 [runways.EDBC.07]
 thr = [ 51.853473, 11.400293 ]
 bearing = 77.39
-fap = [ 51.826277, 11.205347 ] # REFXU
+# fap = [ 51.826277, 11.205347 ] # REFXU
 loc = [ ]
 
 [runways.EDBC.25]
 thr = [ 51.858375, 11.435704 ]
 bearing = 257.41
-fap = [ 51.88505, 11.629902 ] # ASQUM
+# fap = [ 51.88505, 11.629902 ] # ASQUM
 loc = [ ]
 
 [runways.EDBH.09]
 thr = [ 54.338218, 12.700881 ]
 bearing = 90.49
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.EDBH.27]
 thr = [ 54.338135, 12.718561 ]
 bearing = 270.49
-fap = [ 54.337355, 12.864088 ] # BASUG
+# fap = [ 54.337355, 12.864088 ] # BASUG
 loc = [ ]
 
 [runways.EDBM.09]
 thr = [ 52.073553, 11.621023 ]
 bearing = 88.2
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.EDBM.27]
 thr = [ 52.073798, 11.633755 ]
 bearing = 268.2
-fap = [ 52.076488, 11.778063 ] # GIRDU
+# fap = [ 52.076488, 11.778063 ] # GIRDU
 loc = [ ]
 
 [runways.EDBN.09]
 thr = [ 53.601885, 13.288752 ]
 bearing = 88.14
-fap = [ 53.597843, 13.091257 ] # LAMLO
+# fap = [ 53.597843, 13.091257 ] # LAMLO
 loc = [ ]
 
 [runways.EDBN.27]
 thr = [ 53.602561, 13.323365 ]
 bearing = 268.14
-fap = [ 53.606185, 13.518616 ] # GEMGU
+# fap = [ 53.606185, 13.518616 ] # GEMGU
 loc = [ ]
 
 [runways.EDDB.24R]
 thr = [ 52.377431, 13.526097 ]
 bearing = 248.84
-fap = [ 52.448706, 13.829058 ] # UBURU
+# fap = [ 52.448706, 13.829058 ] # UBURU
 loc = [ 52.365689, 13.476564 ]
 
 [runways.EDDB.24L]
 thr = [ 52.358425, 13.523161 ] 
 bearing = 248.83
-fap = [ 52.411089, 13.746475 ] # XANIM
+# fap = [ 52.411089, 13.746475 ] # XANIM
 loc = [ 52.343619, 13.460783 ]
 
 [runways.EDDB.06L]
 thr = [ 52.367689, 13.485025 ]
 bearing = 68.8
-fap = [ 52.295367, 13.182458 ] # ODIDO
+# fap = [ 52.295367, 13.182458 ] # ODIDO
 loc = [ 52.379442, 13.534594 ]
 
 [runways.EDDB.06R]
 thr = [ 52.345433, 13.468428 ]
 bearing = 68.79
-fap = [ 52.292308, 13.246033 ] # TEBGO
+# fap = [ 52.292308, 13.246033 ] # TEBGO
 loc = [ 52.360244, 13.530831 ]
 
 [runways.EDDH.05]
 thr = [ 53.619958, 9.967165 ]
 bearing = 50.3
-fap = [ 53.522235, 9.770274 ] # ANEXI
+# fap = [ 53.522235, 9.770274 ] # ANEXI
 loc = [ 53.638519, 10.004736 ]
 
 [runways.EDDH.15]
 thr = [ 53.654411, 9.975210 ]
 bearing = 152.8
-fap = [ 53.789093, 10.00215 ] # DEVOD
+# fap = [ 53.789093, 10.00215 ] # DEVOD
 loc = [ 53.623236, 9.958902 ]
 
 [runways.EDDH.23]
 thr = [ 53.636010, 9.999654 ]
 bearing = 230.3
-fap = [ 53.732888, 9.858316 ] # PISAS
+# fap = [ 53.732888, 9.858316 ] # PISAS
 loc = [ 53.615872, 9.958902 ]
 
 [runways.EDDH.33]
 thr = [ 53.62868, 9.997448 ]
 bearing = 332.8
-fap = [ 53.493057, 10.114155 ] # SOSAX
+# fap = [ 53.493057, 10.114155 ] # SOSAX
 loc = [ ]
 
 [runways.EDDV.09C]
 thr = [ 52.464779, 9.684564 ]
 bearing = 92
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.EDDV.09L]
 thr = [ 52.468244, 9.652690 ]
 bearing = 92.6
-fap = [ 52.474530, 9.414468 ] # DESIM
+# fap = [ 52.474530, 9.414468 ] # DESIM
 loc = [ 52.466741, 9.707075 ]
 
 [runways.EDDV.09R]
 thr = [ 52.454985, 9.676768 ]
 bearing = 92.6
-fap = [ 52.461302, 9.439732 ] # PIXEL
+# fap = [ 52.461302, 9.439732 ] # PIXEL
 loc = [ 52.453897, 9.715852 ]
 
 [runways.EDDV.27C]
 thr = [ 52.464555, 9.692648 ]
 bearing = 272
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.EDDV.27R]
 thr = [ 52.466946, 9.699727 ]
 bearing = 272.6
-fap = [ 52.460093, 9.937691 ] # XAVER
+# fap = [ 52.460093, 9.937691 ] # XAVER
 loc = [ 52.46845, 9.645225 ]
 
 [runways.EDDV.27L]
 thr = [ 52.454030, 9.711150 ]
 bearing = 272.6
-fap = [ 52.447168, 9.948191 ] # ODINI
+# fap = [ 52.447168, 9.948191 ] # ODINI
 loc = [ 52.455125, 9.671625 ]
 
 [runways.EDDW.09]
 thr = [ 53.046573, 8.774451 ]
 bearing = 87.84
-fap = [ 53.040488, 8.519732 ] # IBUTI
+# fap = [ 53.040488, 8.519732 ] # IBUTI
 loc = [ 53.047441, 8.81275 ]
 
 [runways.EDDW.23]
 thr = [ 53.046515, 8.7924 ]
 bearing = 232
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.EDDW.27]
 thr = [ 53.047263, 8.804848 ]
 bearing = 267.84
-fap = [ 53.052743, 9.059557 ] # ROGBO
+# fap = [ 53.052743, 9.059557 ] # ROGBO
 loc = [ 53.046402, 8.766941 ]
 
 [runways.EDHI.05]
 thr = [ 53.528570, 9.821230 ]
 bearing = 51.6
-fap = [ 53.433191, 9.619896 ] # ERLEK
+# fap = [ 53.433191, 9.619896 ] # ERLEK
 loc = [ 53.543502, 9.852891 ]
 
 [runways.EDHI.23]
 thr = [ 53.538949, 9.843234 ]
 bearing = 231.6
-fap = [ 53.634057, 10.045775 ] # TAMAB
+# fap = [ 53.634057, 10.045775 ] # TAMAB
 loc = [ 53.524069, 9.811694 ]
 
 [runways.EDHK.08]
 thr = [ 54.378927, 10.137330 ]
 bearing = 82.42
-fap = [ 54.365868, 9.972277 ] # FUFKE
+# fap = [ 54.365868, 9.972277 ] # FUFKE
 loc = [ 54.380344, 10.155416 ]
 
 [runways.EDHK.26]
 thr = [ 54.380155, 10.153133 ]
 bearing = 262.42
-fap = [ 54.392857, 10.318285 ] # WEPZI
+# fap = [ 54.392857, 10.318285 ] # WEPZI
 loc = [ 54.378627, 10.133313 ]
 
 [runways.EDHL.07]
 thr = [ 53.802433, 10.704220 ]
 bearing = 71.99
-fap = [ 53.755360, 10.461230 ] # BITNA
+# fap = [ 53.755360, 10.461230 ] # BITNA
 loc = [ 53.808338, 10.734922 ]
 
 [runways.EDHL.25]
 thr = [ 53.807769, 10.731956 ]
 bearing = 251.99
-fap = [ 53.854396, 10.976038 ] # ROXEM
+# fap = [ 53.854396, 10.976038 ] # ROXEM
 loc = [ 53.80145, 10.699105 ]
 
 [runways.EDVE.08]
 thr = [ 52.318660, 10.546488 ]
 bearing = 84.8
-fap = [ 52.310582, 10.403968 ] # MAGER
+# fap = [ 52.310582, 10.403968 ] # MAGER
 loc = [ ]
 
 [runways.EDVE.26]
 thr = [ 52.320294, 10.575694 ]
 bearing = 264.8
-fap = [ 52.328096, 10.717030 ] # LIDMO
+# fap = [ 52.328096, 10.717030 ] # LIDMO
 loc = [ 52.318158, 10.537561 ]
 
 [runways.EDVK.09]
 thr = [ 51.421757, 9.374253 ]
 bearing = 94.94
-fap = [ 51.433202, 9.157985 ] # ABLIB
+# fap = [ 51.433202, 9.157985 ] # ABLIB
 loc = [ 51.419588, 9.414377 ]
 
 [runways.EDVK.27]
 thr = [ 51.419823, 9.410060 ]
 bearing = 274.94
-fap = [ 51.412307, 9.547255 ] # LALTU
+# fap = [ 51.412307, 9.547255 ] # LALTU
 loc = [ 51.421988, 9.369933 ]
 
 [runways.EDWE.07]
 thr = [ 53.389923, 7.220151 ]
 bearing = 72.79
-fap = [ 53.3673, 7.098455 ] # DOKUV
+# fap = [ 53.3673, 7.098455 ] # DOKUV
 loc = [ ]
 
 [runways.EDWE.25]
 thr = [ 53.392583, 7.234508 ]
 bearing = 252.79
-fap = [ 53.415071, 7.356363 ] # ARKUL
+# fap = [ 53.415071, 7.356363 ] # ARKUL
 loc = [ ]
 
 [runways.EDWI.02]
 thr = [ 53.498067, 8.04948 ]
 bearing = 22.01
-fap = [ 53.404188, 7.985988 ] # XETEL
+# fap = [ 53.404188, 7.985988 ] # XETEL
 loc = [ ]
 
 [runways.EDWI.16]
 thr = [ 53.505671, 8.04989 ]
 bearing = 160
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.EDWI.20]
 thr = [ 53.506238, 8.055018 ]
 bearing = 202.01
-fap = [ 53.599805, 8.118624 ] # NOSNO
+# fap = [ 53.599805, 8.118624 ] # NOSNO
 loc = [ ]
 
 [runways.EDWI.34]
 thr = [ 53.500652, 8.053775 ]
 bearing = 340
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.EDXW.06]
 thr = [ 54.909417, 8.329171 ]
 bearing = 59.65
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.EDXW.14]
 thr = [ 54.919348, 8.332882 ]
 bearing = 144.46
-fap = [ 54.979560, 8.258063 ] # EDANI
+# fap = [ 54.979560, 8.258063 ] # EDANI
 loc = [ ]
 
 [runways.EDXW.24]
 thr = [ 54.917116, 8.351994 ]
 bearing = 239.65
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.EDXW.32]
 thr = [ 54.903850, 8.352094 ]
 bearing = 324.46
-fap = [ 54.779657, 8.505385 ] # SYLTA
+# fap = [ 54.779657, 8.505385 ] # SYLTA
 loc = [ 54.920844, 8.331027 ]
 
 [runways.ETHB.07]
 thr = [ 52.276972, 9.071408 ]
 bearing = 77.58
-fap = [ 52.245832, 8.842666 ] # TAKAX
+# fap = [ 52.245832, 8.842666 ] # TAKAX
 loc = [ ]
 
 [runways.ETHB.25]
 thr = [ 52.280196, 9.095297 ]
 bearing = 257.60
-fap = [ 52.299666, 9.24 ] # XALOR
+# fap = [ 52.299666, 9.24 ] # XALOR
 loc = [ 52.27633, 9.066655 ]
 
 [runways.ETHC.08]
 thr = [ 52.589874, 10.008802 ]
 bearing = 80.72
-fap = [ 52.574275, 9.853099 ] # DEDOP
+# fap = [ 52.574275, 9.853099 ] # DEDOP
 loc = [ ]
 
 [runways.ETHC.26]
 thr = [ 52.592524, 10.035464 ]
 bearing = 260.74
-fap = [ 52.607866, 10.191127 ] # AMLIM
+# fap = [ 52.607866, 10.191127 ] # AMLIM
 loc = [ ]
 
 [runways.ETHS.09]
 thr = [ 52.918936, 10.165726 ]
 bearing = 87.71
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.ETHS.27]
 thr = [ 52.919807, 10.201971 ]
 bearing = 267.74
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.ETMN.08]
 thr = [ 53.765434, 8.640391 ]
 bearing = 78.51
-fap = [ ]
+# fap = [ ]
 loc = [ 53.770306, 8.680888 ]
 
 [runways.ETMN.26]
 thr = [ 53.769797, 8.676650 ]
 bearing = 258.54
-fap = [ 53.785402, 8.807182 ] # IMOWE
+# fap = [ 53.785402, 8.807182 ] # IMOWE
 loc = [ 53.764621, 8.633633 ]
 
 [runways.ETND.08]
 thr = [ 52.585021, 8.331836 ]
 bearing = 84.96
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.ETND.26]
 thr = [ 52.586003, 8.350157 ]
 bearing = 264.98
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.ETNH.08]
 thr = [ 54.310189, 9.519721 ]
 bearing = 79.42
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.ETNH.26]
 thr = [ 54.31421, 9.556570 ]
 bearing = 259.44
-fap = [ ]
+# fap = [ ]
 loc = [ 54.309463, 9.513068 ]
 
 [runways.ETNL.09]
 thr = [ 53.919601, 12.260284 ]
 bearing = 97.69
-fap = [ 53.952666, 11.806332 ] # BEKEP
+# fap = [ 53.952666, 11.806332 ] # BEKEP
 loc = [ 53.915458, 12.31216 ]
 
 [runways.ETNL.27]
 thr = [ 53.916567, 12.298294 ]
 bearing = 277.72
-fap = [ 53.8785, 12.760166 ] # OSGIG
+# fap = [ 53.8785, 12.760166 ] # OSGIG
 loc = [ 53.920588, 12.247853 ]
 
 [runways.ETNS.05]
 thr = [ 54.451971, 9.502462 ]
 bearing = 47.66
-fap = [ 54.385532, 9.377646 ] # NS409
+# fap = [ 54.385532, 9.377646 ] # NS409
 loc = [ ]
 
 [runways.ETNS.07]
 thr = [ 54.454715, 9.497324 ]
 bearing = 74.2
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.ETNS.23]
 thr = [ 54.466726, 9.530271 ]
 bearing = 227.69
-fap = [ 54.532982, 9.655541 ] # NS419
+# fap = [ 54.532982, 9.655541 ] # NS419
 loc = [ ]
 
 [runways.ETNS.25]
 thr = [ 54.460728, 9.533824 ]
 bearing = 254.23
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.ETNT.08]
 thr = [ 53.545603, 7.649407 ]
 bearing = 77.83
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.ETNT.26]
 thr = [ 53.550219, 7.685393 ]
 bearing = 257.86
-fap = [ ]
+# fap = [ ]
 loc = [ 53.544901, 7.643953 ]
 
 [runways.ETNW.02]
 thr = [ 52.445059, 9.427091 ]
 bearing = 26.71
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.ETNW.08]
 thr = [ 52.456339, 9.416230 ]
 bearing = 81.59
-fap = [ ]
+# fap = [ ]
 loc = [ 52.459495, 9.451198 ]
 
 [runways.ETNW.20]
 thr = [ 52.458696, 9.438325 ]
 bearing = 206.72
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.ETNW.26]
 thr = [ 52.458998, 9.4457 ]
 bearing = 261.61
-fap = [ ]
+# fap = [ ]
 loc = [ 52.455803, 9.410303 ]
 
 [runways.ETSH.09]
 thr = [ 51.768509, 13.150099 ]
 bearing = 93.36
-fap = [ ]
+# fap = [ ]
 loc = [ ]
 
 [runways.ETSH.27]
 thr = [ 51.767227, 13.185086 ]
 bearing = 273.39
-fap = [ ]
+# fap = [ ]
 loc = [ 51.768773, 13.142866 ]
+
+#-------------EDMM-------------

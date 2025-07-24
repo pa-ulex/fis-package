@@ -3,97 +3,140 @@
 //---------------------------------------------------------------
 
 //EDGG
-{%- set rwy07_brg = brg(runways.EDDF['07C']['bearing']).invert() %}
-{%- set rwy25_brg = brg(runways.EDDF['25C']['bearing']).invert() %}
-{%- set tick07_brg = rwy07_brg + 90 %}
-{%- set tick25_brg = rwy25_brg + 90 %}
+{%- set DF07 = runways.EDDF['07C'].bearing %}
+{%- set DF25 = runways.EDDF['25C'].bearing %}
 
-{%- set rwy05_brg = brg(runways.EDDL['05R']['bearing']).invert() %}
-{%- set rwy23_brg = brg(runways.EDDL['23L']['bearing']).invert() %}
-{%- set tick05_brg = rwy05_brg + 90 %}
-{%- set tick23_brg = rwy23_brg + 90 %}
+{%- set DL05 = runways.EDDL['05R'].bearing %}
+{%- set DL23 = runways.EDDL['23L'].bearing %}
 
-{%- set rwy13_brg = brg(runways.EDDK['13L']['bearing']).invert() %}
-{%- set rwy31_brg = brg(runways.EDDK['31R']['bearing']).invert() %}
-{%- set tick13_brg = rwy13_brg + 90 %}
-{%- set tick31_brg = rwy31_brg + 90 %}
+{%- set DK13 = runways.EDDK['13L'].bearing %}
+{%- set DK31 = runways.EDDK['31R'].bearing %}
+{%- set DK06 = runways.EDDK['06'].bearing %}
+{%- set DK24 = runways.EDDK['24'].bearing %}
 
-{%- set rwy08_brg = brg(runways.ETAR['08']['bearing']).invert() %}
-{%- set rwy26_brg = brg(runways.ETAR['26']['bearing']).invert() %}
-{%- set rwy09_brg = brg(runways.ETAR['09']['bearing']).invert() %}
-{%- set rwy27_brg = brg(runways.ETAR['27']['bearing']).invert() %}
-{%- set tick08_brg = rwy08_brg + 90 %}
-{%- set tick26_brg = rwy26_brg + 90 %}
-{%- set tick09_brg = rwy09_brg + 90 %}
-{%- set tick27_brg = rwy27_brg + 90 %}
+{%- set DS07 = runways.EDDS['07'].bearing %}
+{%- set DS25 = runways.EDDS['25'].bearing %}
+
+{%- set DG07 = runways.EDDG['07'].bearing %}
+{%- set DG25 = runways.EDDG['25'].bearing %}
+
+{%- set AR08 = runways.ETAR['08'].bearing %}
+{%- set AR26 = runways.ETAR['26'].bearing %}
+{%- set AR09 = runways.ETAR['09'].bearing %}
+{%- set AR27 = runways.ETAR['27'].bearing %}
 
 MAP:All ECLs
 FOLDER:ALL
 COLOR:ecl
 STYLE:Solid:1
-{{ ecl_dashes(runways.EDDF['07C'], 25) }}
-{{ fix(runways.EDDF['07C']['thr']).move_to(4 , rwy07_brg).line_to(-0.5, tick07_brg) }}
-{{ fix(runways.EDDF['07C']['thr']).move_to(10, rwy07_brg).line_to(-0.5, tick07_brg) }}
-{{ fix(runways.EDDF['07C']['thr']).move_to(20, rwy07_brg).line_to(-0.5, tick07_brg) }}
-{{ ecl_dashes(runways.EDDF['07R'], 25) }}
-{{ fix(runways.EDDF['07R']['thr']).move_to(4 , rwy07_brg).line_to(-0.5, tick07_brg) }}
-{{ fix(runways.EDDF['07R']['thr']).move_to(10, rwy07_brg).line_to(-0.5, tick07_brg) }}
-{{ fix(runways.EDDF['07R']['thr']).move_to(20, rwy07_brg).line_to(-0.5, tick07_brg) }}
-{{ ecl_dashes(runways.EDDF['07L'], 25) }}
-{{ fix(runways.EDDF['07L']['thr']).move_to(4 , rwy07_brg).line_to(0.5, tick07_brg) }}
-{{ fix(runways.EDDF['07L']['thr']).move_to(10, rwy07_brg).line_to(0.5, tick07_brg) }}
-{{ fix(runways.EDDF['07L']['thr']).move_to(20, rwy07_brg).line_to(0.5, tick07_brg) }}
-{{ ecl_dashes(runways.EDDF['25C'], 25) }}
-{{ fix(runways.EDDF['25C']['thr']).move_to(4 , rwy25_brg).line_to(0.5, tick25_brg) }}
-{{ fix(runways.EDDF['25C']['thr']).move_to(10, rwy25_brg).line_to(0.5, tick25_brg) }}
-{{ fix(runways.EDDF['25C']['thr']).move_to(20, rwy25_brg).line_to(0.5, tick25_brg) }}
-{{ ecl_dashes(runways.EDDF['25L'], 25) }}
-{{ fix(runways.EDDF['25L']['thr']).move_to(4 , rwy25_brg).line_to(0.5, tick25_brg) }}
-{{ fix(runways.EDDF['25L']['thr']).move_to(10, rwy25_brg).line_to(0.5, tick25_brg) }}
-{{ fix(runways.EDDF['25L']['thr']).move_to(20, rwy25_brg).line_to(0.5, tick25_brg) }}
-{{ ecl_dashes(runways.EDDF['25R'], 25) }}
-{{ fix(runways.EDDF['25R']['thr']).move_to(4 , rwy25_brg).line_to(-0.5, tick25_brg) }}
-{{ fix(runways.EDDF['25R']['thr']).move_to(10, rwy25_brg).line_to(-0.5, tick25_brg) }}
-{{ fix(runways.EDDF['25R']['thr']).move_to(20, rwy25_brg).line_to(-0.5, tick25_brg) }}
+{{ ecl_dashes(runways.EDDF['07R'], 30) }}
+{{ fix(runways.EDDF['07R'].thr).move_to(-4 , DF07).move_to(0.5, DF07+90).line_to(0.5, DF07+90) }}
+{{ fix(runways.EDDF['07R'].thr).move_to(-10, DF07).move_to(0.5, DF07+90).line_to(0.5, DF07+90) }}
+{{ fix(runways.EDDF['07R'].thr).move_to(-20, DF07).move_to(0.5, DF07+90).line_to(0.5, DF07+90) }}
+{{ fix(runways.EDDF['07R'].thr).move_to(-30, DF07).move_to(0.5, DF07+90).line_to(0.5, DF07+90) }}
+{{ ecl_dashes(runways.EDDF['07L'], 30) }}
+{{ fix(runways.EDDF['07L'].thr).move_to(-4 , DF07).move_to(-0.5, DF07+90).line_to(-0.5, DF07+90) }}
+{{ fix(runways.EDDF['07L'].thr).move_to(-10, DF07).move_to(-0.5, DF07+90).line_to(-0.5, DF07+90) }}
+{{ fix(runways.EDDF['07L'].thr).move_to(-20, DF07).move_to(-0.5, DF07+90).line_to(-0.5, DF07+90) }}
+{{ fix(runways.EDDF['07L'].thr).move_to(-30, DF07).move_to(-0.5, DF07+90).line_to(-0.5, DF07+90) }}
+{{ ecl_dashes(runways.EDDF['25L'], 30) }}
+{{ fix(runways.EDDF['25L'].thr).move_to(-4 , DF25).move_to(0.5, DF25-90).line_to(0.5, DF25-90) }}
+{{ fix(runways.EDDF['25L'].thr).move_to(-10, DF25).move_to(0.5, DF25-90).line_to(0.5, DF25-90) }}
+{{ fix(runways.EDDF['25L'].thr).move_to(-20, DF25).move_to(0.5, DF25-90).line_to(0.5, DF25-90) }}
+{{ fix(runways.EDDF['25L'].thr).move_to(-30, DF25).move_to(0.5, DF25-90).line_to(0.5, DF25-90) }}
+{{ ecl_dashes(runways.EDDF['25R'], 30) }}
+{{ fix(runways.EDDF['25R'].thr).move_to(-4 , DF25).move_to(-0.5, DF25-90).line_to(-0.5, DF25-90) }}
+{{ fix(runways.EDDF['25R'].thr).move_to(-10, DF25).move_to(-0.5, DF25-90).line_to(-0.5, DF25-90) }}
+{{ fix(runways.EDDF['25R'].thr).move_to(-20, DF25).move_to(-0.5, DF25-90).line_to(-0.5, DF25-90) }}
+{{ fix(runways.EDDF['25R'].thr).move_to(-30, DF25).move_to(-0.5, DF25-90).line_to(-0.5, DF25-90) }}
+{{ ecl_dashes(runways.EDDF['07C'], 30) }}
+{{ marker_ticks(runways.EDDF['07C'], [6, 10, 20,30], 0.5, 0.5) }}
+{{ ecl_dashes(runways.EDDF['25C'], 30) }}
+{{ marker_ticks(runways.EDDF['25C'], [6, 10, 20,30], 0.5, 0.5) }}
 //EDDL
 // 05R
 {{ ecl_dashes(runways.EDDL['05R'], 14) }}
-{{ fix(runways.EDDL['05R']['thr']).move_to(6 , rwy05_brg).move_to(-0.5, tick05_brg).line_to(-0.5, tick05_brg) }}
-{{ fix(runways.EDDL['05R']['thr']).move_to(10, rwy05_brg).move_to(-0.5, tick05_brg).line_to(-0.5, tick05_brg) }}
+{{ fix(runways.EDDL['05R'].thr).move_to(-6 , DL05).move_to(0.5, DL05+90).line_to(0.5, DL05+90) }}
+{{ fix(runways.EDDL['05R'].thr).move_to(-10, DL05).move_to(0.5, DL05+90).line_to(0.5, DL05+90) }}
 // 05L
 {{ ecl_dashes(runways.EDDL['05L'], 14) }}
-{{ fix(runways.EDDL['05L']['thr']).move_to(6 , rwy05_brg).move_to(0.5, tick05_brg).line_to(0.5, tick05_brg) }}
-{{ fix(runways.EDDL['05L']['thr']).move_to(10, rwy05_brg).move_to(0.5, tick05_brg).line_to(0.5, tick05_brg) }}
+{{ fix(runways.EDDL['05L'].thr).move_to(-6 , DL05).move_to(-0.5, DL05+90).line_to(-0.5, DL05+90) }}
+{{ fix(runways.EDDL['05L'].thr).move_to(-10, DL05).move_to(-0.5, DL05+90).line_to(-0.5, DL05+90) }}
 // 23L
 {{ ecl_dashes(runways.EDDL['23L'], 14) }}
-{{ fix(runways.EDDL['23L']['thr']).move_to(6 , rwy23_brg).move_to(0.5, tick23_brg).line_to(0.5, tick23_brg) }}
-{{ fix(runways.EDDL['23L']['thr']).move_to(10, rwy23_brg).move_to(0.5, tick23_brg).line_to(0.5, tick23_brg) }}
+{{ fix(runways.EDDL['23L'].thr).move_to(-6 , DL23).move_to(0.5, DL23-90).line_to(0.5, DL23-90) }}
+{{ fix(runways.EDDL['23L'].thr).move_to(-10, DL23).move_to(0.5, DL23-90).line_to(0.5, DL23-90) }}
 // 23R
 {{ ecl_dashes(runways.EDDL['23R'], 14) }}
-{{ fix(runways.EDDL['23R']['thr']).move_to(6 , rwy23_brg).move_to(-0.5, tick23_brg).line_to(-0.5, tick23_brg) }}
-{{ fix(runways.EDDL['23R']['thr']).move_to(10, rwy23_brg).move_to(-0.5, tick23_brg).line_to(-0.5, tick23_brg) }}
+{{ fix(runways.EDDL['23R'].thr).move_to(-6 , DL23).move_to(-0.5, DL23-90).line_to(-0.5, DL23-90) }}
+{{ fix(runways.EDDL['23R'].thr).move_to(-10, DL23).move_to(-0.5, DL23-90).line_to(-0.5, DL23-90) }}
 // Long Ticks
-{%- for rwy in ['05R', '05L', '23L', '23R'] %}
-{%- set brg = brg(runways.EDDL[rwy]['bearing']).invert() %}
-{%- set thr = runways.EDDL[rwy]['thr'] %}
-// {{ rwy }}
-{{ fix(thr).move_to(15, brg).line_to(5, brg) }}
-{%- endfor %}
-// Longer Ticks
-{%- for rwy in ['23L', '23R'] %}
-{%- set brg = brg(runways.EDDL[rwy]['bearing']).invert() %}
-{%- set thr = runways.EDDL[rwy]['thr'] %}
-{{ fix(thr).move_to(25, brg).line_to(5, brg) }}
-{%- endfor %}
+COORD_PBD:EDDL/05R:{{DL23}}:15
+COORD_FC:{{DL23}}:5
+COORDLINE
+COORD_PBD:EDDL/05L:{{DL23}}:15
+COORD_FC:{{DL23}}:5
+COORDLINE
+COORD_PBD:EDDL/23L:{{DL05}}:15
+COORD_FC:{{DL05}}:5
+COORDLINE
+COORD_PBD:EDDL/23R:{{DL05}}:15
+COORD_FC:{{DL05}}:5
+COORDLINE
+COORD_PBD:EDDL/23L:{{DL05}}:25
+COORD_FC:{{DL05}}:5
+COORDLINE
+COORD_PBD:EDDL/23R:{{DL05}}:25
+COORD_FC:{{DL05}}:5
+COORDLINE
 //EDDK
 // 13L
-{{ ecl_dashes(runways.EDDK['13L'], 20) }}
-{{ marker_ticks(runways.EDDK['13L'], [1], 0, 0.5) }}
-{{ marker_ticks(runways.EDDK['13L'], [6, 10], 0.5, 1) }}
+{{ ecl_dashes(runways.EDDK['13L'], 12) }}
+{{ marker_ticks(runways.EDDK['13L'], [1], 0, 0.25) }}
+{{ marker_ticks(runways.EDDK['13L'], [6, 10], 0.5, 0.5) }}
 // 31R
-{{ ecl_dashes(runways.EDDK['31R'], 20) }}
-{{ marker_ticks(runways.EDDK['31R'], [1], 0, 0.5) }}
-{{ marker_ticks(runways.EDDK['31R'], [6, 10], 0.5, 1) }}
+{{ ecl_dashes(runways.EDDK['31R'], 12) }}
+{{ marker_ticks(runways.EDDK['31R'], [1], 0, 0.25) }}
+{{ marker_ticks(runways.EDDK['31R'], [6, 10], 0.5, 0.5) }}
+// 06
+{{ ecl_dashes(runways.EDDK['06'], 12) }}
+{{ marker_ticks(runways.EDDK['06'], [1], 0, 0.25) }}
+{{ marker_ticks(runways.EDDK['06'], [6, 10], 0.5, 0.5) }}
+// 24
+{{ ecl_dashes(runways.EDDK['24'], 12) }}
+{{ marker_ticks(runways.EDDK['24'], [1], 0, 0.25) }}
+{{ marker_ticks(runways.EDDK['24'], [6, 10], 0.5, 0.5) }}
+// Long Ticks
+COORD_PBD:EDDK/13L:{{DK31}}:13
+COORD_FC:{{DK31}}:5
+COORDLINE
+COORD_PBD:EDDK/31R:{{DK13}}:13
+COORD_FC:{{DK13}}:5
+COORDLINE
+COORD_PBD:EDDK/06:{{DK24}}:13
+COORD_FC:{{DK24}}:5
+COORDLINE
+COORD_PBD:EDDK/24:{{DK06}}:13
+COORD_FC:{{DK06}}:5
+COORDLINE
+// 13L
+{{ fix(runways.EDDK['13L'].thr).move_to(-6 , DK13).move_to(0.4, DK13+90).line_to(0.6, DK13+90) }}
+{{ fix(runways.EDDK['13L'].thr).move_to(-10, DK13).move_to(0.4, DK13+90).line_to(0.6, DK13+90) }}
+// 31R
+{{ fix(runways.EDDK['31R'].thr).move_to(-6 , DK31).move_to(0.4, DK31-90).line_to(0.6, DK31-90) }}
+{{ fix(runways.EDDK['31R'].thr).move_to(-10, DK31).move_to(0.4, DK31-90).line_to(0.6, DK31-90) }}
+STYLE:SOLID:1
+COLOR:ecl
+// 13R
+{{ ecl_dashes(runways.EDDK['13R'], 12) }}
+{{ marker_ticks(runways.EDDK['13R'], [1], 0, 0.25) }}
+{{ fix(runways.EDDK['13R'].thr).move_to(-6 , DK13).move_to(0.5, DK13+90).line_to(0.5, DK13+90) }}
+{{ fix(runways.EDDK['13R'].thr).move_to(-10, DK13).move_to(0.5, DK13+90).line_to(0.5, DK13+90) }}
+// 31L
+{{ ecl_dashes(runways.EDDK['31L'], 12) }}
+{{ marker_ticks(runways.EDDK['31L'], [1], 0, 0.25) }}
+{{ fix(runways.EDDK['31L'].thr).move_to(-6 , DK31).move_to(0.5, DK31-90).line_to(0.5, DK31-90) }}
+{{ fix(runways.EDDK['31L'].thr).move_to(-10, DK31).move_to(0.5, DK31-90).line_to(0.5, DK31-90) }}
 // 06
 {{ ecl_dashes(runways.EDDK['06'], 20) }}
 {{ marker_ticks(runways.EDDK['06'], [1], 0, 0.5) }}
@@ -102,22 +145,26 @@ STYLE:Solid:1
 {{ ecl_dashes(runways.EDDK['24'], 20) }}
 {{ marker_ticks(runways.EDDK['24'], [1], 0, 0.5) }}
 {{ marker_ticks(runways.EDDK['24'], [6, 10], 0.5, 1) }}
-// 13R
-{{ fix(runways.EDDK['13L']['thr']).move_to(1 , rwy13_brg).move_to(-0.01, tick13_brg).line_to(-0.6, tick13_brg) }}
-{{ fix(runways.EDDK['13L']['thr']).move_to(6 , rwy13_brg).move_to(-0.4 , tick13_brg).line_to(-1.1, tick13_brg) }}
-{{ fix(runways.EDDK['13L']['thr']).move_to(10, rwy13_brg).move_to(-0.4 , tick13_brg).line_to(-1.1, tick13_brg) }}
-{{ ecl_dashes(runways.EDDK['13R'], 20) }}
-{{ fix(runways.EDDK['13R']['thr']).move_to(1 , rwy13_brg).line_to(-0.5, tick13_brg) }}
-{{ fix(runways.EDDK['13R']['thr']).move_to(6 , rwy13_brg).move_to(-0.5, tick13_brg).line_to(-1, tick13_brg) }}
-{{ fix(runways.EDDK['13R']['thr']).move_to(10, rwy13_brg).move_to(-0.5, tick13_brg).line_to(-1, tick13_brg) }}
-// 31L
-{{ fix(runways.EDDK['31R']['thr']).move_to(1 , rwy31_brg).move_to(0.01, tick31_brg).line_to(0.6, tick31_brg) }}
-{{ fix(runways.EDDK['31R']['thr']).move_to(6 , rwy31_brg).move_to(0.4 , tick31_brg).line_to(1.1, tick31_brg) }}
-{{ fix(runways.EDDK['31R']['thr']).move_to(10, rwy31_brg).move_to(0.4 , tick31_brg).line_to(1.1, tick31_brg) }}
-{{ ecl_dashes(runways.EDDK['31L'], 20) }}
-{{ fix(runways.EDDK['31L']['thr']).move_to(1 , rwy31_brg).line_to(0.5, tick31_brg) }}
-{{ fix(runways.EDDK['31L']['thr']).move_to(6 , rwy31_brg).move_to(0.5, tick31_brg).line_to(1, tick31_brg) }}
-{{ fix(runways.EDDK['31L']['thr']).move_to(10, rwy31_brg).move_to(0.5, tick31_brg).line_to(1, tick31_brg) }}
+// Long Ticks
+COORD_PBD:EDDK/13L:{{DK31}}:13
+COORD_FC:{{DK31}}:5
+COORDLINE
+COORD_PBD:EDDK/31R:{{DK13}}:13
+COORD_FC:{{DK13}}:5
+COORDLINE
+COORD_PBD:EDDK/06:{{DK24}}:13
+COORD_FC:{{DK24}}:5
+COORDLINE
+COORD_PBD:EDDK/24:{{DK06}}:13
+COORD_FC:{{DK06}}:5
+COORDLINE
+COORD_PBD:EDDK/13R:{{DK31}}:13
+COORD_FC:{{DK31}}:5
+COORDLINE
+COORD_PBD:EDDK/31L:{{DK13}}:13
+COORD_FC:{{DK13}}:5
+COORDLINE
+
 //EDDS
 // 07
 {{ ecl_dashes(runways.EDDS['07'], 20) }}
@@ -127,137 +174,201 @@ STYLE:Solid:1
 {{ ecl_dashes(runways.EDDS['25'], 20) }}
 {{ marker_ticks(runways.EDDS['25'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.EDDS['25'], [6, 10, 20], 0.5, 0.5) }}
+// Long Ticks
+COORD_PBD:EDDS/07:{{DS25}}:25
+COORD_FC:{{DS25}}:5
+COORDLINE
+COORD_PBD:EDDS/25:{{DS07}}:25
+COORD_FC:{{DS07}}:5
+COORDLINE
+
 //EDDG
 // 07
-{{ ecl_dashes(runways.EDDG['07'], 14) }}
-{{ marker_ticks(runways.EDDG['07'], [4, 10], 0.5, 0.5) }}
+{{ ecl_dashes(runways.EDDG['07'], 12) }}
+{{ marker_ticks(runways.EDDG['07'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDDG['07'], [6, 10], 0.5, 0.5) }}
 // 25
-{{ ecl_dashes(runways.EDDG['25'], 14) }}
-{{ marker_ticks(runways.EDDG['25'], [4, 10], 0.5, 0.5) }}
-//EDDR
+{{ ecl_dashes(runways.EDDG['25'], 12) }}
+{{ marker_ticks(runways.EDDG['25'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDDG['25'], [6, 10], 0.5, 0.5) }}
+// Long Ticks
+COORD_PBD:EDDG/07:{{DG25}}:15
+COORD_FC:{{DG25}}:5
+COORDLINE
+COORD_PBD:EDDG/25:{{DG07}}:15
+COORD_FC:{{DG07}}:5
+COORDLINE
 
+//EDDR
 // 08
 {{ ecl_dashes(runways.EDDR['08'], 12) }}
+{{ marker_ticks(runways.EDDR['08'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.EDDR['08'], [10], 0.5, 0.5) }}
 // 26
-{{ ecl_dashes(runways.EDDR['26'], 12) }}
+{{ ecl_dashes(runways.EDDR['26'], 14) }}
+{{ marker_ticks(runways.EDDR['26'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.EDDR['26'], [10], 0.5, 0.5) }}
-//EDFH
 
+//EDFH
 // 03
 {{ ecl_dashes(runways.EDFH['03'], 20) }}
-{{ marker_ticks(runways.EDFH['03'], [4, 10, 20], 0.5, 0.5) }}
+{{ marker_ticks(runways.EDFH['03'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDFH['03'], [6, 10, 20], 0.5, 0.5) }}
 // 21
 {{ ecl_dashes(runways.EDFH['21'], 20) }}
-{{ marker_ticks(runways.EDFH['21'], [4, 10, 20], 0.5, 0.5) }}
-//EDFM
+{{ marker_ticks(runways.EDFH['21'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDFH['21'], [6, 10, 20], 0.5, 0.5) }}
 
+//EDFM
 // 09
 {{ ecl_dashes(runways.EDFM['09'], 12) }}
+{{ marker_ticks(runways.EDFM['09'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.EDFM['09'], [10], 0.5, 0.5) }}
 // 27
 {{ ecl_dashes(runways.EDFM['27'], 16) }}
+{{ marker_ticks(runways.EDFM['27'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.EDFM['27'], [10], 0.5, 0.5) }}
-//EDFQ
 
+//EDFQ
 // 11
 {{ ecl_dashes(runways.EDFQ['11'], 12) }}
+{{ marker_ticks(runways.EDFQ['11'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.EDFQ['11'], [10], 0.5, 0.5) }}
 // 29
 {{ ecl_dashes(runways.EDFQ['29'], 16) }}
+{{ marker_ticks(runways.EDFQ['29'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.EDFQ['29'], [10], 0.5, 0.5) }}
-//EDGS
 
+//EDGS
 // 13
 {{ ecl_dashes(runways.EDGS['13'], 12) }}
+{{ marker_ticks(runways.EDGS['13'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.EDGS['13'], [10], 0.5, 0.5) }}
 // 31
 {{ ecl_dashes(runways.EDGS['31'], 16) }}
+{{ marker_ticks(runways.EDGS['31'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.EDGS['31'], [10], 0.5, 0.5) }}
-//EDLN
 
+//EDLN
 // 13
 {{ ecl_dashes(runways.EDLN['13'], 10) }}
-{{ marker_ticks(runways.EDLN['13'], [4, 10], 0.5, 0.5) }}
+{{ marker_ticks(runways.EDLN['13'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDLN['13'], [6, 10], 0.5, 0.5) }}
 // 31
 {{ ecl_dashes(runways.EDLN['31'], 10) }}
-{{ marker_ticks(runways.EDLN['31'], [4, 10], 0.5, 0.5) }}
-//EDLP
+{{ marker_ticks(runways.EDLN['31'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDLN['31'], [6, 10], 0.5, 0.5) }}
 
+//EDLP
 // 06
 {{ ecl_dashes(runways.EDLP['06'], 14) }}
-{{ marker_ticks(runways.EDLP['06'], [4, 10], 0.5, 0.5) }}
+{{ marker_ticks(runways.EDLP['06'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDLP['06'], [6, 10], 0.5, 0.5) }}
 // 24
 {{ ecl_dashes(runways.EDLP['24'], 14) }}
-{{ marker_ticks(runways.EDLP['24'], [4, 10], 0.5, 0.5) }}
-//EDLV
+{{ marker_ticks(runways.EDLP['24'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDLP['24'], [6, 10], 0.5, 0.5) }}
 
+//EDLV
 // 09
 {{ ecl_dashes(runways.EDLV['09'], 14) }}
-{{ marker_ticks(runways.EDLV['09'], [4, 10], 0.5, 0.5) }}
+{{ marker_ticks(runways.EDLV['09'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDLV['09'], [6, 10], 0.5, 0.5) }}
 // 27
 {{ ecl_dashes(runways.EDLV['27'], 14) }}
-{{ marker_ticks(runways.EDLV['27'], [4, 10], 0.5, 0.5) }}
-//EDLW
+{{ marker_ticks(runways.EDLV['27'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDLV['27'], [6, 10], 0.5, 0.5) }}
 
+//EDLW
 // 06
 {{ ecl_dashes(runways.EDLW['06'], 12) }}
-{{ marker_ticks(runways.EDLW['06'], [4, 10], 0.5, 0.5) }}
+{{ marker_ticks(runways.EDLW['06'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDLW['06'], [6, 10], 0.5, 0.5) }}
 // 24
 {{ ecl_dashes(runways.EDLW['24'], 12) }}
-{{ marker_ticks(runways.EDLW['24'], [4, 10], 0.5, 0.5) }}
-//EDQG
+{{ marker_ticks(runways.EDLW['24'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDLW['24'], [6, 10], 0.5, 0.5) }}
 
+//EDQG
 // 08
 {{ ecl_dashes(runways.EDQG['08'], 14) }}
+{{ marker_ticks(runways.EDQG['08'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.EDQG['08'], [10], 0.5, 0.5) }}
 // 26
 {{ ecl_dashes(runways.EDQG['26'], 14) }}
+{{ marker_ticks(runways.EDQG['26'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.EDQG['26'], [10], 0.5, 0.5) }}
-//EDRY
 
+//EDRY
 // 16
 {{ ecl_dashes(runways.EDRY['16'], 12) }}
+{{ marker_ticks(runways.EDRY['16'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.EDRY['16'], [10], 0.5, 0.5) }}
 // 34
 {{ ecl_dashes(runways.EDRY['34'], 12) }}
+{{ marker_ticks(runways.EDRY['34'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.EDRY['34'], [10], 0.5, 0.5) }}
-//EDRZ
 
+//EDRZ
 // 03
 {{ ecl_dashes(runways.EDRZ['03'], 12) }}
+{{ marker_ticks(runways.EDRZ['03'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.EDRZ['03'], [10], 0.5, 0.5) }}
 // 21
 {{ ecl_dashes(runways.EDRZ['21'], 12) }}
+{{ marker_ticks(runways.EDRZ['21'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.EDRZ['21'], [10], 0.5, 0.5) }}
+
 //EDSB
-
 // 03
-{{ ecl_dashes(runways.EDSB['03'], 14) }}
-{{ marker_ticks(runways.EDSB['03'], [10], 0.5, 0.5) }}
+{{ ecl_dashes(runways.EDSB['03'], 16) }}
+{{ marker_ticks(runways.EDSB['03'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDSB['03'], [6, 10], 0.5, 0.5) }}
 // 21
-{{ ecl_dashes(runways.EDSB['21'], 14) }}
-{{ marker_ticks(runways.EDSB['21'], [10], 0.5, 0.5) }}
+{{ ecl_dashes(runways.EDSB['21'], 16) }}
+{{ marker_ticks(runways.EDSB['21'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDSB['21'], [6, 10], 0.5, 0.5) }}
+
 //EDTL
-
 // 03
-{{ ecl_dashes(runways.EDTL['03'], 14) }}
-{{ marker_ticks(runways.EDTL['03'], [10], 0.5, 0.5) }}
+{{ ecl_dashes(runways.EDTL['03'], 16) }}
+{{ marker_ticks(runways.EDTL['03'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDTL['03'], [6, 10], 0.5, 0.5) }}
 // 21
-{{ ecl_dashes(runways.EDTL['21'], 14) }}
-{{ marker_ticks(runways.EDTL['21'], [10], 0.5, 0.5) }}
-//EDTY
+{{ ecl_dashes(runways.EDTL['21'], 16) }}
+{{ marker_ticks(runways.EDTL['21'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDTL['21'], [6, 10], 0.5, 0.5) }}
 
+//EDTY
 // 10
-{{ ecl_dashes(runways.EDTY['10'], 14) }}
+{{ ecl_dashes(runways.EDTY['10'], 10) }}
+{{ marker_ticks(runways.EDTY['10'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.EDTY['10'], [10], 0.5, 0.5) }}
 // 28
-{{ ecl_dashes(runways.EDTY['28'], 14) }}
+{{ ecl_dashes(runways.EDTY['28'], 10) }}
+{{ marker_ticks(runways.EDTY['28'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.EDTY['28'], [10], 0.5, 0.5) }}
+
+//EDTM
+{{ ecl_dashes(runways.EDTM['25'], 10) }}
+{{ marker_ticks(runways.EDTM['25'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDTM['25'], [10], 0.5, 0.5) }}
+// 28
+{{ ecl_dashes(runways.EDTM['07'], 10) }}
+{{ marker_ticks(runways.EDTM['07'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDTM['07'], [10], 0.5, 0.5) }}
+
+//EDTD
+{{ ecl_dashes(runways.EDTD['18'], 10) }}
+{{ marker_ticks(runways.EDTD['18'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDTD['18'], [10], 0.5, 0.5) }}
+// 28
+{{ ecl_dashes(runways.EDTD['36'], 10) }}
+{{ marker_ticks(runways.EDTD['36'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.EDTD['36'], [10], 0.5, 0.5) }}
 
 //EDWW
 //EDDB
-
 ;----- ECL -----24R
 {{ ecl_dashes(runways['EDDB']['24R'], 30) }}
 ;----- Ticks Long -----
@@ -296,7 +407,6 @@ LINE:N052.18.53.486:E013.13.37.327:N052.19.21.422:E013.13.19.599
 LINE:N052.15.13.421:E012.58.28.798:N052.15.41.358:E012.58.11.094
 
 //EDDH
-
 {{ ecl_dashes(runways['EDDH']['05'], 25) }}
 {{ marker_ticks(runways['EDDH']['05'], [10, 20], 0.5, 0.5) }}
 {{ marker_ticks(runways['EDDH']['05'], [5, 15], -0.5, 1) }}
@@ -314,29 +424,32 @@ LINE:N052.15.13.421:E012.58.28.798:N052.15.41.358:E012.58.11.094
 {{ marker_ticks(runways['EDDH']['33'], [5, 15, 20], -0.5, 1) }}
 
 //EDDV
+{{ ecl_dashes(runways['EDDV']['09L'], 19) }}
+{{ marker_ticks(runways['EDDV']['09L'], [5, 10, 15], -0.5, 1) }}
+{{ loc_tick(runways['EDDV']['09L'], -0.5, 1) }}
 
-{{ ecl_dashes(runways['EDDV']['09L'], 10) }}
-{{ marker_ticks(runways['EDDV']['09L'], [4], 0.5, 0.5) }}
+{{ ecl_dashes(runways['EDDV']['09R'], 19) }}
+{{ marker_ticks(runways['EDDV']['09R'], [5, 10, 15], -0.5, 1) }}
+{{ loc_tick(runways['EDDV']['09R'], -0.5, 1) }}
 
-{{ ecl_dashes(runways['EDDV']['09R'], 10) }}
-{{ marker_ticks(runways['EDDV']['09R'], [4], 0.5, 0.5) }}
+{{ ecl_dashes(runways['EDDV']['27L'], 19) }}
+{{ marker_ticks(runways['EDDV']['27L'], [5, 10, 15], -0.5, 1) }}
+{{ loc_tick(runways['EDDV']['27L'], -0.5, 1) }}
 
-{{ ecl_dashes(runways['EDDV']['27L'], 10) }}
-{{ marker_ticks(runways['EDDV']['27L'], [4], 0.5, 0.5) }}
-
-{{ ecl_dashes(runways['EDDV']['27R'], 10) }}
-{{ marker_ticks(runways['EDDV']['27R'], [4], 0.5, 0.5) }}
+{{ ecl_dashes(runways['EDDV']['27R'], 19) }}
+{{ marker_ticks(runways['EDDV']['27R'], [5, 10, 15], -0.5, 1) }}
+{{ loc_tick(runways['EDDV']['27R'], -0.5, 1) }}
 
 //EDDW
-
 {{ ecl_dashes(runways['EDDW']['09'], 14) }}
 {{ marker_ticks(runways['EDDW']['09'], [6, 10], 0.5, 0.5) }}
+{{ loc_tick(runways['EDDW']['09'], -0.5, 1) }}
 
 {{ ecl_dashes(runways['EDDW']['27'], 14) }}
 {{ marker_ticks(runways['EDDW']['27'], [6, 10], 0.5, 0.5) }}
+{{ loc_tick(runways['EDDW']['27'], -0.5, 1) }}
 
 //EDAH
-
 {{ ecl_dashes(runways['EDAH']['10'], 12) }}
 {{ marker_ticks(runways['EDAH']['10'], [10], 0.5, 0.5) }}
 {{ marker_ticks(runways['EDAH']['10'], [5], -0.5, 1) }}
@@ -346,17 +459,26 @@ LINE:N052.15.13.421:E012.58.28.798:N052.15.41.358:E012.58.11.094
 {{ marker_ticks(runways['EDAH']['28'], [5], -0.5, 1) }}
 
 //EDVK
-
 {{ ecl_dashes(runways['EDVK']['09'], 12) }}
 {{ marker_ticks(runways['EDVK']['09'], [10], 0.5, 0.5) }}
 {{ marker_ticks(runways['EDVK']['09'], [5], -0.5, 1) }}
+{{ loc_tick(runways['EDVK']['09'], -0.5, 1) }}
 
 {{ ecl_dashes(runways['EDVK']['27'], 12) }}
 {{ marker_ticks(runways['EDVK']['27'], [10], 0.5, 0.5) }}
 {{ marker_ticks(runways['EDVK']['27'], [5], -0.5, 1) }}
+{{ loc_tick(runways['EDVK']['27'], -0.5, 1) }}
+
+//EDVE
+{{ ecl_dashes(runways['EDVE']['08'], 10) }}
+{{ marker_ticks(runways['EDVE']['08'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDVE']['08'], [5], -0.5, 1) }}
+
+{{ ecl_dashes(runways['EDVE']['26'], 10) }}
+{{ marker_ticks(runways['EDVE']['26'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDVE']['26'], [5], -0.5, 1) }}
 
 //EDXW
-
 {{ ecl_dashes(runways['EDXW']['14'], 12) }}
 {{ marker_ticks(runways['EDXW']['14'], [10], 0.5, 0.5) }}
 {{ marker_ticks(runways['EDXW']['14'], [5], -0.5, 1) }}
@@ -364,161 +486,94 @@ LINE:N052.15.13.421:E012.58.28.798:N052.15.41.358:E012.58.11.094
 {{ ecl_dashes(runways['EDXW']['32'], 12) }}
 {{ marker_ticks(runways['EDXW']['32'], [10], 0.5, 0.5) }}
 {{ marker_ticks(runways['EDXW']['32'], [5], -0.5, 1) }}
+{{ loc_tick(runways['EDXW']['32'], -0.5, 1) }}
+
+//EDHI
+{{ ecl_dashes(runways['EDHI']['05'], 10) }}
+{{ marker_ticks(runways['EDHI']['05'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDHI']['05'], [5], -0.5, 1) }}
+{{ loc_tick(runways['EDHI']['05'], -0.5, 1) }}
+
+{{ ecl_dashes(runways['EDHI']['23'], 10) }}
+{{ marker_ticks(runways['EDHI']['23'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDHI']['23'], [5], -0.5, 1) }}
+{{ loc_tick(runways['EDHI']['23'], -0.5, 1) }}
+
+//EDHL
+{{ ecl_dashes(runways['EDHL']['07'], 16) }}
+{{ marker_ticks(runways['EDHL']['07'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDHL']['07'], [5, 15], -0.5, 1) }}
+{{ loc_tick(runways['EDHL']['07'], -0.5, 1) }}
+
+{{ ecl_dashes(runways['EDHL']['25'], 16) }}
+{{ marker_ticks(runways['EDHL']['25'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDHL']['25'], [5, 15], -0.5, 1) }}
+{{ loc_tick(runways['EDHL']['25'], -0.5, 1) }}
 
 //TMZ-RMZ
 //EDWI
+{{ ecl_dashes(runways['EDWI']['02'], 10) }}
+{{ marker_ticks(runways['EDWI']['02'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDWI']['02'], [5], -0.5, 1) }}
 
-LINE:53.48263893151887:8.039024942829299:53.46720990906506:8.028577469372907
-LINE:53.451779933800715:8.018137570320569:53.43634900688613:8.007705236376074
-LINE:53.420917129479676:7.997280458257204:53.40548430273792:7.986863226695725
-LINE:53.390050527815504:7.976453532437335:53.37461580586522:7.9660513662416665
-LINE:53.35918013803801:7.955656718882262:53.34374352548297:7.945269581146514
-LINE:53.34686105145212:7.932378615644893:53.34997857570368:7.919486709690769
-LINE:53.34062460564644:7.958158665848915:53.33750568424875:7.971046810204709
-LINE:53.41779824825209:8.010192866721653:53.42403182064643:7.984364272093277
-LINE:53.42403461294302:7.984366160289331:53.417795456044075:8.010190975911282
-
-LINE:53.52166509199165:8.06548266333671:53.53709122741236:8.075954932778973
-LINE:53.55251640509376:8.08643481768574:53.56794062386553:8.09692232743006
-LINE:53.58336388255551:8.10741747139916:53.59878617998961:8.117920258994461
-LINE:53.61420751499183:8.128430699631588:53.629627886384306:8.138948802740416
-LINE:53.645047292987186:8.149474577765053:53.66046573361877:8.160008034163925
-LINE:53.65734697197589:8.17299353312236:53.654228208778626:8.185978073699298
-LINE:53.66358308531086:8.147020618335725:53.666700435289854:8.134032244019336
-LINE:53.586481276631936:8.094453704714384:53.580242273754926:8.120377420749685
-LINE:53.58024508246573:8.12037933008035:53.586478467830126:8.094451798038412
+{{ ecl_dashes(runways['EDWI']['20'], 10) }}
+{{ marker_ticks(runways['EDWI']['20'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDWI']['20'], [5], -0.5, 1) }}
 
 //EDWE
+{{ ecl_dashes(runways['EDWE']['07'], 10) }}
+{{ marker_ticks(runways['EDWE']['07'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDWE']['07'], [5], -0.5, 1) }}
 
-LINE:53.38499648316699:7.193563683902816:53.3800640430588:7.166982509127398
-LINE:53.375125682090825:7.1404074805219695:53.37018140268003:7.113838602923981
-LINE:53.365231207244996:7.087275881160221:53.360275098205875:7.060719320046548
-LINE:53.35531307798444:7.034168924388274:53.350345149004006:7.007624698979795
-LINE:53.34537131368951:6.981086648604738:53.34039157446745:6.9545547780361066
-LINE:53.34833937093707:6.950440693835727:53.356287156736414:6.946325844307881
-LINE:53.33244362557087:6.958667332658417:53.32449566604281:6.96277912302969
-LINE:53.357283291569004:7.09139082663602:53.3731786865504:7.08315787210141
-LINE:53.37317897036924:7.083159403832881:53.35728300777296:7.091389294664476
-
-LINE:53.39750358865167:7.261103110823769:53.40241824863121:7.287704354216028
-LINE:53.40732697752772:7.3143117252950285:53.41222977293189:7.340925219168067
-LINE:53.41712663243606:7.367544830931781:53.42201755363423:7.394170555672075
-LINE:53.426902534121965:7.420802388463956:53.43178157149655:7.447440324371747
-LINE:53.43665466335686:7.474084358449008:53.441521807303495:7.5007344857385085
-LINE:53.43357399360371:7.504856796617312:53.42562616928411:7.508978338607181
-LINE:53.449469468067406:7.496610635997095:53.45741711817256:7.492486016281554
-LINE:53.42507432592248:7.363423342314743:53.40917850180663:7.371663246196483
-LINE:53.40917878613675:7.3716647829328:53.42507404156936:7.363421805819097
+{{ ecl_dashes(runways['EDWE']['25'], 10) }}
+{{ marker_ticks(runways['EDWE']['25'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDWE']['25'], [5], -0.5, 1) }}
 
 //EDHK
+{{ ecl_dashes(runways['EDHK']['08'], 10) }}
+{{ marker_ticks(runways['EDHK']['08'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDHK']['08'], [5], -0.5, 1) }}
 
-LINE:54.37672898116819:10.109078960270438:54.37452435199721:10.080830943050563
-LINE:54.37231311372416:10.052585956843862:54.37009526758962:10.024344010147264
-LINE:54.36787081483747:9.996105111450808:54.365639756715055:9.967869269237896
-LINE:54.363402094473095:9.939636491985086:54.36115782936571:9.911406788162305
-LINE:54.35890696265037:9.883180166232611:54.356649495587966:9.854956634652202
-LINE:54.364895767604466:9.85307744660399:54.37314202827979:9.851197882034471
-LINE:54.34840318299075:9.856835070225264:54.340156859058915:9.858713129844222
-LINE:54.3596245176623:9.997984058915272:54.37611701290903:9.994224658046873
-LINE:54.37611707142144:9.994225410995181:54.35962445915541:9.99798330588127
-
-LINE:54.382346406660915:10.18138789708004:54.384531200221076:10.209645799867845
-LINE:54.38670937945347:10.237906699838923:54.38888094313453:10.266170588461984
-LINE:54.3910458900441:10.294437457199328:54.39320421896542:10.322707297506364
-LINE:54.395355928685206:10.350980100832105:54.397501017993584:10.379255858619072
-LINE:54.39963948568409:10.40753456230299:54.40177133055373:10.435816203313298
-LINE:54.39352507995724:10.437696699382427:54.38527881803229:10.439576818459592
-LINE:54.41001754052729:10.433934952691166:54.41826373916584:10.432053324507738
-LINE:54.3992921147622:10.292556697367086:54.38279956615649:10.296316708871917
-LINE:54.38279962471307:10.296317462973184:54.39929205620007:10.29255594335158
+{{ ecl_dashes(runways['EDHK']['26'], 10) }}
+{{ marker_ticks(runways['EDHK']['26'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDHK']['26'], [5], -0.5, 1) }}
 
 //EDBN
+{{ ecl_dashes(runways['EDBN']['09'], 10) }}
+{{ marker_ticks(runways['EDBN']['09'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDBN']['09'], [5], -0.5, 1) }}
 
-LINE:53.60134163958218:13.26079120690273:53.600791746481754:13.23283113576213
-LINE:53.600235320997655:13.2048717951725:53.59967236343234:13.176913193726303
-LINE:53.599102874091805:13.148955340014544:53.59852685328556:13.120998242626461
-LINE:53.59794430132668:13.093041910149623:53.59735521853173:13.065086351170159
-LINE:53.596759605220825:13.037131574272145:53.596157461717624:13.009177588038362
-LINE:53.60447311739453:13.00872354762533:53.61278876144418:13.00826941800599
-LINE:53.58784179269059:13.009631450172465:53.579526112034664:13.010085223233885
-LINE:53.590787209183475:13.149409233708923:53.60741852220561:13.14850108970878
-LINE:53.60741852565021:13.148501268009674:53.59078720573919:13.149409055388837
-
-LINE:53.603097827298235:13.351326952915425:53.60362812116622:13.379289610623179
-LINE:53.60415188131559:13.40725296452366:53.60466910746158:13.435217006016197
-LINE:53.60517979932292:13.463181726498247:53.605683956621874:13.491147117365994
-LINE:53.60618157908426:13.519113170014014:53.60667266643942:13.547079875835538
-LINE:53.60715721842026:13.575047226222432:53.607635234763215:13.603015212564985
-LINE:53.59931958178532:13.603469197715757:53.591003917180025:13.603923093732393
-LINE:53.61595087439173:13.602561049012252:53.62426650239445:13.602106796191634
-LINE:53.61349544238448:13.462727589295906:53.59686413946674:13.463635506939731
-LINE:53.59686414291182:13.463635685324956:53.613495438939154:13.462727410929872
+{{ ecl_dashes(runways['EDBN']['27'], 10) }}
+{{ marker_ticks(runways['EDBN']['27'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDBN']['27'], [5], -0.5, 1) }}
 
 //EDBM
-
-LINE:52.07431772102997:11.66075284150862:52.074831258412786:11.687751306275116
-LINE:52.075338611894026:11.714750386864758:52.07583978122235:11.741750075841958
-LINE:52.07633476614942:11.768750365769732:52.07682356643:11.795751249209898
-LINE:52.07730618182189:11.822752718723173:52.07778261208591:11.849754766869081
-LINE:52.07825285698598:11.876757386205878:52.078716916289046:11.90376056929088
-LINE:52.070398830591984:11.904184752815583:52.062080733087164:11.904608857538605
-LINE:52.087034988652086:11.903336228048172:52.095353049208676:11.902911807889094
-LINE:52.08465284189378:11.76832604712022:52.068016674017386:11.769174369018069
-LINE:52.06801667707092:11.769174526723136:52.08465283884004:11.768325889433077
+{{ ecl_dashes(runways['EDBM']['27'], 10) }}
+{{ marker_ticks(runways['EDBM']['27'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDBM']['27'], [5], -0.5, 1) }}
 
 //EDBH
+{{ ecl_dashes(runways['EDBH']['09'], 10) }}
+{{ marker_ticks(runways['EDBH']['09'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDBH']['09'], [5], -0.5, 1) }}
 
-LINE:54.33835692985963:12.672408503336248:54.338489142317165:12.643935819323701
-LINE:54.338614637297276:12.615462957243432:54.338733414728445:12.586989926376763
-LINE:54.338845474543014:12.558516736005409:54.33895081667709:12.530043395411603
-LINE:54.339049441070664:12.50156991387768:54.33914134766753:12.473096300686448
-LINE:54.339226536415325:12.444622565121115:54.33930500726548:12.416148716465027
-LINE:54.34762370783433:12.416270496826645:54.35594239686405:12.416392301787294
-LINE:54.330986295033554:12.416026985264004:54.32266757126025:12.41590527862456
-LINE:54.330526761673546:12.558395006161515:54.34716417550364:12.55863856416517
-LINE:54.34716417574934:12.558638515008518:54.33052676142791:12.558395055323292
-
-LINE:54.33798935282569:12.747033242686088:54.33783698843185:12.775505279463818
-LINE:54.33767790690531:12.803977101053832:54.3375121083367:12.832448698176872
-LINE:54.33733959282051:12.860920061554607:54.337160360455:12.889391181908833
-LINE:54.336974411342304:12.917862049962311:54.33678174558837:12.946332656438122
-LINE:54.336582363302945:12.974802992059988:54.33637626459963:13.003273047552257
-LINE:54.328057548304464:13.003151324999978:54.31973882046753:13.003029627004885
-LINE:54.34469496923127:13.00339481925634:54.35301366232341:13.003516615555055
-LINE:54.34565829611583:12.861041836106173:54.32902087761622:12.860798385314991
-LINE:54.329020877861865:12.860798336157735:54.34565829587014:12.861041885258304
+{{ ecl_dashes(runways['EDBH']['27'], 10) }}
+{{ marker_ticks(runways['EDBH']['27'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDBH']['27'], [5], -0.5, 1) }}
 
 //EDBC
+{{ ecl_dashes(runways['EDBC']['07'], 10) }}
+{{ marker_ticks(runways['EDBC']['07'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDBC']['07'], [5], -0.5, 1) }}
 
-LINE:51.84983624320713:11.374064716977763:51.84619363762363:11.347840664883556
-LINE:51.8425451849461:11.321620849275014:51.83889088687318:11.29540527570223
-LINE:51.835230745105626:11.26919394970782:51.83156476134622:11.242986876826983
-LINE:51.82789293729984:11.216784062587296:51.824215274673406:11.190585512508918
-LINE:51.82053177517594:11.164391232104553:51.81684244051847:11.138201226879314
-LINE:51.82496420505429:11.135269081673298:51.83308595829876:11.132336409047907
-LINE:51.80872059162647:11.141132317986937:51.800598731462564:11.144062882415236
-LINE:51.82710892173085:11.272126234165603:51.843352337828144:11.266259554876372
-LINE:51.84335248407804:11.26626061002668:51.82710877549058:11.27212517886923
-
-LINE:51.86200023202618:11.46194140318506:51.86561960994741:11.488183021089014
-LINE:51.869233132075266:11.514428848124078:51.872840796723416:11.540678878694763
-LINE:51.876442602207646:11.566933107198347:51.880038546845824:11.593191528024471
-LINE:51.88362862895794:11.619454135555536:51.88721284686609:11.645720924166314
-LINE:51.89079119889448:11.67199188822431:51.894363683369455:11.698267022089587
-LINE:51.8862413084147:11.701198571163241:51.878118922193984:11.704129591967414
-LINE:51.90248597399985:11.695334415733864:51.91060825334482:11.692401280365225
-LINE:51.8845649177412:11.564001667175438:51.86832005639585:11.569862434783689
-LINE:51.86832020239472:11.569863491038959:51.88456477173267:11.564000611066142
+{{ ecl_dashes(runways['EDBC']['25'], 10) }}
+{{ marker_ticks(runways['EDBC']['25'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['EDBC']['25'], [5], -0.5, 1) }}
 
 //EDAZ
-
-LINE:52.20907979165168:13.19335984652854:52.21315673468109:13.21962850492426
-LINE:52.2172278271723:13.245901969876188:52.22129306721136:13.27218023606511
-LINE:52.22535245288623:13.298463298163249:52.22940598228681:13.32475115083457
-LINE:52.233453653504945:13.351043788734453:52.23749546463444:13.377341206510053
+{{ ecl_dashes(runways['EDAZ']['25'], 8) }}
 
 //EDAY
-
 {{ ecl_dashes(runways['EDAY']['05'], 10) }}
 {{ ecl_dashes(runways['EDAY']['23'], 10) }}
 
@@ -628,11 +683,6 @@ LINE:N049.27.19.090:E011.20.44.734:N049.27.48.733:E011.20.51.625
 //20NM
 LINE:N049.27.45.118:E011.36.25.129:N049.27.15.475:E011.36.18.242
 LINE:N049.25.46.544:E011.35.57.580:N049.26.16.188:E011.36.04.467
-
-//EDJA
-MAP:EDJA ECL
-FOLDER:ECL
-COLOR:ecl
 
 //06
 //LINE
@@ -958,10 +1008,17 @@ LINE:N051.26.45.518:E012.47.16.297:N051.25.45.726:E012.47.23.476
 {{ ecl_dashes(runways['ETMN']['08'], 12) }}
 {{ marker_ticks(runways['ETMN']['08'], [10], 0.5, 0.5) }}
 {{ marker_ticks(runways['ETMN']['08'], [5], -0.5, 1) }}
+{{ loc_tick(runways['ETMN']['08'], -0.5, 1) }}
 
 {{ ecl_dashes(runways['ETMN']['26'], 12) }}
 {{ marker_ticks(runways['ETMN']['26'], [10], 0.5, 0.5) }}
 {{ marker_ticks(runways['ETMN']['26'], [5], -0.5, 1) }}
+{{ loc_tick(runways['ETMN']['26'], -0.5, 1) }}
+
+//ETND
+{{ ecl_dashes(runways['ETND']['26'], 12) }}
+{{ marker_ticks(runways['ETND']['26'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETND']['26'], [5], -0.5, 1) }}
 
 //ETNH
 {{ ecl_dashes(runways['ETNH']['08'], 12) }}
@@ -971,6 +1028,7 @@ LINE:N051.26.45.518:E012.47.16.297:N051.25.45.726:E012.47.23.476
 {{ ecl_dashes(runways['ETNH']['26'], 12) }}
 {{ marker_ticks(runways['ETNH']['26'], [10], 0.5, 0.5) }}
 {{ marker_ticks(runways['ETNH']['26'], [5], -0.5, 1) }}
+{{ loc_tick(runways['ETNH']['26'], -0.5, 1) }}
 
 //ETNS
 {{ ecl_dashes(runways['ETNS']['05'], 12) }}
@@ -1046,10 +1104,12 @@ LINE:N052.28.15.980:E009.34.49.797:N052.27.46.328:E009.34.56.981
 {{ ecl_dashes(runways['ETNL']['09'], 12) }}
 {{ marker_ticks(runways['ETNL']['09'], [10], 0.5, 0.5) }}
 {{ marker_ticks(runways['ETNL']['09'], [5], -0.5, 1) }}
+{{ loc_tick(runways['ETNL']['09'], -0.5, 1) }}
 
 {{ ecl_dashes(runways['ETNL']['27'], 12) }}
 {{ marker_ticks(runways['ETNL']['27'], [10], 0.5, 0.5) }}
 {{ marker_ticks(runways['ETNL']['27'], [5], -0.5, 1) }}
+{{ loc_tick(runways['ETNL']['27'], -0.5, 1) }}
 
 //ETNT
 {{ ecl_dashes(runways['ETNT']['08'], 12) }}
@@ -1059,6 +1119,7 @@ LINE:N052.28.15.980:E009.34.49.797:N052.27.46.328:E009.34.56.981
 {{ ecl_dashes(runways['ETNT']['26'], 12) }}
 {{ marker_ticks(runways['ETNT']['26'], [10], 0.5, 0.5) }}
 {{ marker_ticks(runways['ETNT']['26'], [5], -0.5, 1) }}
+{{ loc_tick(runways['ETNT']['26'], -0.5, 1) }}
 
 //ETSH
 {{ ecl_dashes(runways['ETSH']['09'], 12) }}
@@ -1068,70 +1129,99 @@ LINE:N052.28.15.980:E009.34.49.797:N052.27.46.328:E009.34.56.981
 {{ ecl_dashes(runways['ETSH']['27'], 12) }}
 {{ marker_ticks(runways['ETSH']['27'], [10], 0.5, 0.5) }}
 {{ marker_ticks(runways['ETSH']['27'], [5], -0.5, 1) }}
+{{ loc_tick(runways['ETSH']['27'], -0.5, 1) }}
+
+//ETHC
+{{ ecl_dashes(runways['ETHC']['08'], 12) }}
+{{ marker_ticks(runways['ETHC']['08'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETHC']['08'], [5], -0.5, 1) }}
+
+{{ ecl_dashes(runways['ETHC']['26'], 12) }}
+{{ marker_ticks(runways['ETHC']['26'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETHC']['26'], [5], -0.5, 1) }}
+
+//ETHS
+{{ ecl_dashes(runways['ETHS']['09'], 12) }}
+{{ marker_ticks(runways['ETHS']['09'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETHS']['09'], [5], -0.5, 1) }}
+
+{{ ecl_dashes(runways['ETHS']['27'], 12) }}
+{{ marker_ticks(runways['ETHS']['27'], [10], 0.5, 0.5) }}
+{{ marker_ticks(runways['ETHS']['27'], [5], -0.5, 1) }}´
 
 //ETAD
 // 04
 {{ ecl_dashes(runways.ETAD['04'], 12) }}
+{{ marker_ticks(runways.ETAD['04'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.ETAD['04'], [10], 0.5, 0.5) }}
 // 22
 {{ ecl_dashes(runways.ETAD['22'], 12) }}
+{{ marker_ticks(runways.ETAD['22'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.ETAD['22'], [10], 0.5, 0.5) }}
 
 //ETAR
 // 08
 {{ ecl_dashes(runways.ETAR['08'], 12) }}
-{{ fix(runways.ETAR['08']['thr']).move_to(10, rwy08_brg).move_to(-0.5, tick08_brg).line_to(-0.5, tick08_brg) }}
+{{ fix(runways.ETAR['08'].thr).move_to(-10, AR08).move_to(0.5, AR08+90).line_to(0.5, AR08+90) }}
 // 26
 {{ ecl_dashes(runways.ETAR['26'], 12) }}
-{{ fix(runways.ETAR['26']['thr']).move_to(10, rwy26_brg).move_to(-0.5, tick26_brg).line_to(-0.5, tick26_brg) }}
+{{ fix(runways.ETAR['26'].thr).move_to(-10, AR26).move_to(-0.5, AR26-90).line_to(-0.5, AR26-90) }}
 // 09
 {{ ecl_dashes(runways.ETAR['09'], 12) }}
-{{ fix(runways.ETAR['09']['thr']).move_to(10, rwy09_brg).move_to(0.5, tick09_brg).line_to(0.5, tick09_brg) }}
+{{ fix(runways.ETAR['09'].thr).move_to(-10, AR09).move_to(-0.5, AR09+90).line_to(-0.5, AR09+90) }}
 // 27
 {{ ecl_dashes(runways.ETAR['27'], 12) }}
-{{ fix(runways.ETAR['27']['thr']).move_to(10, rwy27_brg).move_to(0.5, tick27_brg).line_to(0.5, tick27_brg) }}
+{{ fix(runways.ETAR['27'].thr).move_to(-10, AR27).move_to(0.5, AR27-90).line_to(0.5, AR27-90) }}
 
 //ETEB
 // 26
 {{ ecl_dashes(runways.ETEB['26'], 12) }}
+{{ marker_ticks(runways.ETEB['26'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.ETEB['26'], [10], 0.5, 0.5) }}
 
 //ETHF
 // 11
 {{ ecl_dashes(runways.ETHF['11'], 12) }}
+{{ marker_ticks(runways.ETHF['11'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.ETHF['11'], [10], 0.5, 0.5) }}
 // 29
 {{ ecl_dashes(runways.ETHF['29'], 12) }}
+{{ marker_ticks(runways.ETHF['29'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.ETHF['29'], [10], 0.5, 0.5) }}
 
 //ETHN
 // 07
 {{ ecl_dashes(runways.ETHN['07'], 12) }}
+{{ marker_ticks(runways.ETHN['07'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.ETHN['07'], [10], 0.5, 0.5) }}
 // 25
 {{ ecl_dashes(runways.ETHN['25'], 12) }}
+{{ marker_ticks(runways.ETHN['25'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.ETHN['25'], [10], 0.5, 0.5) }}
 
 //ETIK
 // 24
 {{ ecl_dashes(runways.ETIK['24'], 12) }}
+{{ marker_ticks(runways.ETIK['24'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.ETIK['24'], [10], 0.5, 0.5) }}
 
 //ETNG
 // 09
 {{ ecl_dashes(runways.ETNG['09'], 14) }}
-{{ marker_ticks(runways.ETNG['09'], [4, 10], 0.5, 0.5) }}
+{{ marker_ticks(runways.ETNG['09'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.ETNG['09'], [6, 10], 0.5, 0.5) }}
 // 27
 {{ ecl_dashes(runways.ETNG['27'], 14) }}
-{{ marker_ticks(runways.ETNG['27'], [4, 10], 0.5, 0.5) }}
+{{ marker_ticks(runways.ETNG['27'], [0.5], 0, 0.5) }}
+{{ marker_ticks(runways.ETNG['27'], [6, 10], 0.5, 0.5) }}
 
 //ETNN
 // 06
 {{ ecl_dashes(runways.ETNN['06'], 14) }}
-{{ marker_ticks(runways.ETNN['06'], [4, 10], 0.5, 0.5) }}
+{{ marker_ticks(runways.ETNN['06'], [6, 10], 0.5, 0.5) }}
 // 24
-{{ ecl_dashes(runways.ETNN['24'], 14) }}
-{{ marker_ticks(runways.ETNN['24'], [4, 10], 0.5, 0.5) }}
+{{ ecl_dashes(runways.ETNN['24'], 10) }}
+{{ marker_ticks(runways.ETNN['24'], [6, 10], 0.5, 0.5) }}
 
 //ETOU
 // 07
@@ -1144,7 +1234,9 @@ LINE:N052.28.15.980:E009.34.49.797:N052.27.46.328:E009.34.56.981
 //ETSB
 // 03
 {{ ecl_dashes(runways.ETSB['03'], 12) }}
+{{ marker_ticks(runways.ETSB['03'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.ETSB['03'], [10], 0.5, 0.5) }}
 // 21
 {{ ecl_dashes(runways.ETSB['21'], 12) }}
+{{ marker_ticks(runways.ETSB['21'], [0.5], 0, 0.5) }}
 {{ marker_ticks(runways.ETSB['21'], [10], 0.5, 0.5) }}

@@ -4,7 +4,7 @@
 
 MAP:AD RWYS
 FOLDER:ALL
-COLOR:rwy
+COLOR:runway
 STYLE:Solid:1
 LAYER:+1
 //EDWW

@@ -74,14 +74,14 @@ COLOR:topo_water
 
 MAP:German Border
 FOLDER:Topo
-LAYER:-3
+LAYER:-2
 STYLE:Solid:1
 COLOR:standard
 {% for uuid, geom in data.border.items() %}
 {{- geom | to_coordline(uuid) }}
 {% endfor %}
 
-MAP:Big City Labels
+MAP:City Labels
 FOLDER:Topo
 LAYER:+2
 COLOR:black
@@ -89,4 +89,8 @@ COLOR:black
 {{- geom | to_text(label) }}
 {% endfor %}
 
+MAP:Obstacles
+FOLDER:ALL
+LAYER:+2
+COLOR:standard
 {{ data.obstacles }}
