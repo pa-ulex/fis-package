@@ -120,37 +120,10 @@
          "color":"#96960a"
       },
       {
-         "code":"4201",
-         "message":"GCA",
-         "color":"#96960a"
-      },
-      {
-         "code":"4202",
-         "message":"GCA",
-         "color":"#96960a"
-      },
-      {
-         "code":"4203",
-         "message":"GCA",
-         "color":"#96960a"
-      },
-      {
-         "code":"4204",
-         "message":"GCA",
-         "color":"#96960a"
-      },
-      {
-         "code":"4205",
-         "message":"GCA",
-         "color":"#96960a"
-      },
-      {
-         "code":"4206",
-         "message":"GCA",
-         "color":"#96960a"
-      },
-      {
-         "code":"4207",
+         "range": {
+            "start": "4201",
+            "end": "4207"
+         },
          "message":"GCA",
          "color":"#96960a"
       },

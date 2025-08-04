@@ -3,7 +3,7 @@
 //---------------------------------------------------------------
 
 MAP:Unmanned Air Traffic Boxes
-FOLDER:ALL
+FOLDER:All
 COLOR:standard
 STYLE:Solid:1
 LINE:52.326995:10.736333:52.326868:10.738699

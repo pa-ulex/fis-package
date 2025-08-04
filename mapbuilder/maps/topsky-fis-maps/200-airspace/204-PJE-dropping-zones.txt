@@ -3,7 +3,7 @@
 //---------------------------------------------------------------
 
 MAP:PJE Dropping Zones
-FOLDER:ALL
+FOLDER:All
 COLOR:standard
 STYLE:Solid:1
 ACTIVE:1

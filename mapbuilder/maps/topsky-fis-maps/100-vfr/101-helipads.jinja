@@ -3,7 +3,7 @@
 //---------------------------------------------------------------
 
 MAP:Helipads
-FOLDER:ALL
+FOLDER:All
 COLOR:standard
 {%- for name, geom in data.hospitals['Hospitals'].items() %}
 {{ geom | to_symbol('HOSPITAL') }} // {{name}}

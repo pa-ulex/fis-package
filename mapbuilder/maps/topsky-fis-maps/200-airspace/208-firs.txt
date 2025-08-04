@@ -3,7 +3,7 @@
 //---------------------------------------------------------------
 
 MAP:EDXX FIRs
-FOLDER:ALL
+FOLDER:All
 COLOR:standard
 STYLE:Solid:1
 //EDMM
