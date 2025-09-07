@@ -1,14 +1,14 @@
 //---------------------------------------------------------------
-//                         FIR Border
+//                         EDXX Border
 //---------------------------------------------------------------
 
-MAP:FIR Border
+MAP:EDXX Border
 FOLDER:All
 COLOR:standard
 STYLE:Solid:1
 ACTIVE:1
+LAYER:-2
 COORDLINE
-// Border_2
 COORD:48.2679937:13.0616134
 COORD:48.25856220000001:13.0239765
 COORD:48.2552537:13.01622
