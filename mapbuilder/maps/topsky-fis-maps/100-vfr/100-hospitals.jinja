@@ -1,12 +1,12 @@
 //---------------------------------------------------------------
-//                            Helipads
+//                          Hospitals
 //---------------------------------------------------------------
 
-MAP:Helipads
+MAP:Hospitals
 FOLDER:All
 COLOR:standard
 {%- for name, geom in data.hospitals['Hospitals'].items() %}
-{{ geom | to_symbol('HOSPITAL') }} // {{name}}
+{{ geom | to_symbol('HOSPITAL') }}
 {%- endfor %}
 {%- for name, geom in data.hospitals['Hospitals'].items() %}
 {{ geom | to_text(name)}}:0:-13

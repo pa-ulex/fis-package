@@ -3,9 +3,8 @@ run-name: Build Maps for ${{ github.sha }} by ${{ github.actor }}
 
 on:
   push:
-    branches-ignore:
-      - main
-  workflow_dispatch:
+    branches:
+      - "**"
 
 permissions: write-all
 
@@ -14,29 +13,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12.10"
-
-      - name: Cache dependencies
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.cache/pypoetry
-            ~/.cache/pip
-          key: ${{ runner.os }}-poetry-${{ hashFiles('.github/workflows/mapbuilder/poetry.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-poetry-
+          python-version: "3.12"
 
       - name: Install Poetry
         uses: abatilo/actions-poetry@v4
         with:
-          poetry-version: 'latest'
+          poetry-version: "latest"
 
       - name: Configure Poetry
         run: poetry config virtualenvs.in-project true

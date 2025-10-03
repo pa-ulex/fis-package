@@ -1,9 +1,9 @@
 //---------------------------------------------------------------
-//                     VFR Reporting Points
+//                      Reporting Points
 //---------------------------------------------------------------
 
-MAP:Civil VFR Points
-FOLDER:VFR Reporting Points
+MAP:Civil VRP
+FOLDER:Reporting Points
 COLOR:standard
 //EDGG
 // EDDF
@@ -341,8 +341,8 @@ SYMBOL:AID VFR:N047.30.42.000:E012.12.30.000:SÖLL:15:10
 SYMBOL:FIX VFR:N047.34.54.000:E012.23.24.000:GRIESENAU:15:10
 SYMBOL:FIX VFR:N047.34.36.000:E012.28.48.000:ERPFENDORF:15:10
 
-MAP:Military VFR Points
-FOLDER:VFR Reporting Points
+MAP:Military VRP
+FOLDER:Reporting Points
 COLOR:standard
 //EDGG-MIL
 // ETAD

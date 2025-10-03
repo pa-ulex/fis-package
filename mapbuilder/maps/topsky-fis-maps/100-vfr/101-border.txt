@@ -3,11 +3,11 @@
 //---------------------------------------------------------------
 
 MAP:EDXX Border
-FOLDER:All
+FOLDER:Topo
 COLOR:standard
 STYLE:Solid:1
 ACTIVE:1
-LAYER:-2
+LAYER:+1
 COORDLINE
 COORD:48.2679937:13.0616134
 COORD:48.25856220000001:13.0239765

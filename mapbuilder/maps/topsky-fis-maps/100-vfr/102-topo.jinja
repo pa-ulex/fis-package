@@ -2,6 +2,14 @@
 //                            Topography
 //---------------------------------------------------------------
 
+MAP:Coastline
+FOLDER:Topo
+LAYER:-1
+STYLE:Solid:1
+COLOR:DFSGrey
+ACTIVE:1
+{{ data.coastline }}
+
 MAP:Topography
 FOLDER:Topo
 LAYER:-1
@@ -22,7 +30,7 @@ COLOR:topo_water
 {% for uuid, geom in data.rivers.items() %}
 {{- geom | to_coordline('') }}
 {% endfor %}
-{% for label, geom in data.rivers_labels.items() %}
+{% for label, geom in data.river_labels.items() %}
 {{- geom | to_text(label) }}
 {% endfor %}
 {% for name, geom in data.lakes.items() %}
@@ -31,7 +39,7 @@ COLOR:topo_water
 
 MAP:City Labels
 FOLDER:Topo
-LAYER:+2
+LAYER:+3
 COLOR:black
 {% for label, geom in data.urban_labels.items() %}
 {{- geom | to_text(label) }}
@@ -57,14 +65,6 @@ COLOR:topo_road
 {{- geom | to_text(label) }}
 {% endfor %}
 
-MAP:Coastline
-FOLDER:Topo
-LAYER:-1
-STYLE:Solid:1
-COLOR:DFSGrey
-ACTIVE:1
-{{ data.coastline }}
-
 MAP:Rivers and Lakes
 FOLDER:Topo
 LAYER:-1
@@ -76,7 +76,7 @@ COLOR:topo_water
 {% for name, geom in data.lakes.items() %}
 {{- geom | to_poly(name, 'topo_water', 100) }}
 {% endfor %}
-{% for label, geom in data.rivers_labels.items() %}
+{% for label, geom in data.river_labels.items() %}
 {{- geom | to_text(label) }}
 {% endfor %}
 
@@ -90,7 +90,7 @@ COLOR:standard
 {% endfor %}
 
 MAP:Obstacles
-FOLDER:All
+FOLDER:Topo
 LAYER:+1
 COLOR:standard
 {{ data.obstacles }}
