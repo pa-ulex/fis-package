@@ -113,6 +113,8 @@ Color_WM_Frame=195,195,185
 
 Areas_Remote_Activation=1
 HTTP_AUP_URL=https://atciss.vatsim-germany.org/api/areas/topsky
+HTTP_Areas_Remote_URL=https://lara-backend.lusep.fi/topsky/edxx.txt
+Areas_PreActiveTime=900
 
 Malrt_Misap=MAPP
 Malrt_Inbound_EST=EST
