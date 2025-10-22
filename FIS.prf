@@ -1,7 +1,7 @@
 Plugins	Plugin0	\EDXX\Plugins\TopSky\TopSky.dll
 Plugins	Plugin0Display0	Standard ES radar screen
 Plugins	Plugin1	\EDXX\Plugins\AfVEuroScopeBridge.dll
-Plugins	Plugin2	\EDXX\Plugins\Squawk\Squawks.dll
+Plugins	Plugin2	\EDXX\Plugins\SquawkIndicator\Squawks.dll
 
 RecentFiles	Recent1	\EDXX\ASR\FIS.asr
 
@@ -26,9 +26,9 @@ Settings	SettingsfileTAXIIN	\EDXX\Settings\General.txt
 Settings	SettingsfileTAXIOUT	\EDXX\Settings\General.txt
 Settings	SettingsfileVCCS	\EDXX\Settings\VCCS.txt
 Settings	SettingsfileVOICE	\EDXX\Settings\VoiceChannels.txt
-Settings	airportcoords	\EDWW\NavData\icao.txt
-Settings	aircraft	\EDWW\ICAO\ICAO_Aircraft.txt
-Settings	airports	\EDWW\ICAO\ICAO_Airports.txt
+Settings	airportcoords	\EDXX\NavData\icao.txt
+Settings	aircraft	\EDXX\ICAO\ICAO_Aircraft.txt
+Settings	airports	\EDXX\ICAO\ICAO_Airports.txt
 Settings	airlines	\EDXX\ICAO\ICAO_Airlines.txt
 Settings	alias	\EDXX\Alias\alias.txt
 Settings	sector	

@@ -231,7 +231,6 @@ STCA_WarningTime_L=60
 STCA_WarningTime_U_Imm=50
 STCA_WarningTime_L_Imm=50
 
-Shortcut_Map_Xfr_Combo=1,0x12
 Shortcut_Map_Xfr_Key=1,0x54 ; T
 Shortcut_Map_Xfr_Key=2,0x56 ; V
 Shortcut_Map_Xfr_Key=3,0x41 ; A
@@ -242,7 +241,7 @@ Shortcut_Map_Xfr_Key=7,0x48 ; H
 Shortcut_Map_Xfr_Key=8,0x5A ; Z
 Shortcut_Map_Xfr_Key=9,0x47 ; G
 Shortcut_Map_Target=1,Topo\Topography
-Shortcut_Map_Target=2,VFR Reporting Points
+Shortcut_Map_Target=2,Reporting Points
 Shortcut_Map_Target=3,Airspace\Labels
 Shortcut_Map_Target=4,MVA\Winter MVA
 Shortcut_Map_Target=5,Topo\Rivers and Lakes

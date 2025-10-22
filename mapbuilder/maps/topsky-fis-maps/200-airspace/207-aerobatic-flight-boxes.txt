@@ -3,7 +3,7 @@
 //---------------------------------------------------------------
 
 MAP:Aerobatic Flight Boxes
-FOLDER:All
+FOLDER:Misc
 COLOR:standard
 STYLE:Solid:1
 LINE:53.058478:7.303333:53.057971:7.312957

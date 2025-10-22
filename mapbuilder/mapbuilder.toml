@@ -40,9 +40,9 @@ source = "kml/River_Labels.kml"
 type = "kml"
 source = "kml/Lakes.kml"
 
-[data.hospitals]
+[data.helipads]
 type = "kml"
-source = "kml/Hospitals.kml"
+source = "kml/Helipads.kml"
 
 [data.border]
 type = "kml"
@@ -56,7 +56,7 @@ source = "misc/topo/coastline.txt"
 type = "raw"
 source = "misc/topo/obstacles.txt"
 
-#----------FIS + FIRs----------
+#----------FIS Sectors----------
 
 [data.fis_sectors]
 type = "raw"

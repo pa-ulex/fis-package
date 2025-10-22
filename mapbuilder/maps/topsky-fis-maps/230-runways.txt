@@ -2,8 +2,8 @@
 //                            Runways
 //---------------------------------------------------------------
 
-MAP:AD RWYS
-FOLDER:All
+MAP:Aerodrome RWYs
+FOLDER:Misc
 COLOR:runway
 STYLE:Solid:1
 LAYER:+1
